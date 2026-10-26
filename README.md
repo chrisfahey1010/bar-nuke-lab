@@ -195,7 +195,15 @@ Hermes context discovery is described in the [official context-files documentati
 
 The application remains local and read-only. No Sheet edits, permissions/format changes, replay access/execution, collector, hosting, DNS changes, or game/settings changes were performed. Original optional Tasks 9–10 were not authorized or implemented. No new product roadmap is implied by the completed Tasks 0–8.
 
-The original implementation handoff predates Git setup. The project now has a private GitHub repository at **https://github.com/chrisfahey1010/bar-nuke-lab**, with `main` as the primary branch and `origin` as the remote. Source code, tests, documentation, saved data snapshots and verification evidence are versioned; installed dependencies, builds, local browsers, generated browser reports and local secrets are excluded.
+The original implementation handoff predates Git setup. The project now has a public GitHub repository at **https://github.com/chrisfahey1010/bar-nuke-lab**, with `main` as the primary branch and `origin` as the remote. Source code, tests, documentation, saved data snapshots and verification evidence are versioned; installed dependencies, builds, local browsers, generated browser reports and local secrets are excluded.
+
+### Security and public data
+
+- Public source and Git history can be read, copied and forked. Publication does not grant visitors permission to push changes to this repository or edit the Google Sheet.
+- The dashboard reads the public CSV with anonymous `GET` requests and omitted credentials. The Sheet identifier, exposed CSV records and committed historical snapshots are public information, not secrets. Do not put confidential data in this feed or its snapshots.
+- Google sharing permissions, not application code or an `/edit` URL, control who can edit the Sheet. General link access should be **Viewer**, with Editor access limited to trusted accounts. Owner-side sharing permissions have not been independently verified.
+- Keep credentials, environment files and raw cookie-bearing HTTP headers out of Git, including its history. Ignore rules and secret scanners reduce accidental exposure but are not a guarantee against every secret or vulnerability.
+- `package.json` retains `"private": true` to prevent accidental npm publication; this does not affect GitHub repository visibility.
 
 ### Planned Cloudflare Pages deployment
 
