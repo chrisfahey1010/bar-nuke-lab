@@ -5,6 +5,7 @@ import { buildContext } from '../../src/data/gameMetadata';
 import { parseElapsed } from '../../src/domain/time';
 import { ROLES } from '../../src/data/normalize';
 import { SOURCE_URL } from '../../src/data/snapshot';
+import { runtimeLabel } from './helpers';
 
 test('live builder coverage bars reconcile with recorded own builders in desktop and mobile', async ({
   page,
@@ -88,7 +89,7 @@ test('live builder coverage bars reconcile with recorded own builders in desktop
   await page.getByLabel('Role', { exact: true }).selectOption('');
   await check();
   const views = [];
-  const kind = testInfo.project.use.baseURL?.includes('4173') ? 'preview' : 'dev';
+  const kind = runtimeLabel(testInfo.project.use.baseURL);
   mkdirSync(testInfo.outputDir, { recursive: true });
   for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 900 });

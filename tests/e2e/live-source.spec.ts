@@ -11,6 +11,7 @@ import { ROLES } from '../../src/data/normalize';
 import { ROLE_COLORS } from '../../src/views/OsRelationship';
 import { escapeHover } from '../../src/charts/text';
 import { formatTime } from '../../src/domain/time';
+import { runtimeLabel } from './helpers';
 
 async function expectPositionCoverage(page: Page, c: Context, rows: Observation[]) {
   const retained = new Set(rows.map((row) => row.role));
@@ -146,7 +147,7 @@ test('actual browser fetches fresh Google CSV directly without credentials or a 
     expect(bounds.horizontalOverflow).toBe(false);
     expect(bounds.titleOverflow).toBeLessThanOrEqual(0);
     const screenshot = testInfo.outputPath(
-      `readiness-window-live-${page.url().includes(':4173') ? 'preview' : 'dev'}-${width}.png`,
+      `readiness-window-live-${runtimeLabel(page.url())}-${width}.png`,
     );
     await page.locator('.timing-panel').screenshot({ path: screenshot });
     rendering.push({ width, ...bounds, screenshot });
@@ -211,13 +212,11 @@ test('actual browser fetches fresh Google CSV directly without credentials or a 
     expect(alignment.endpointDifference).toBeLessThanOrEqual(1);
     expect(alignment.front.range).toEqual([12, 25]);
     const frontScreenshot = testInfo.outputPath(
-      `front-situation-live-${page.url().includes(':4173') ? 'preview' : 'dev'}-${width}.png`,
+      `front-situation-live-${runtimeLabel(page.url())}-${width}.png`,
     );
     await frontPanel.screenshot({ path: frontScreenshot });
     await page.screenshot({
-      path: testInfo.outputPath(
-        `front-revision-overview-${page.url().includes(':4173') ? 'preview' : 'dev'}-${width}.png`,
-      ),
+      path: testInfo.outputPath(`front-revision-overview-${runtimeLabel(page.url())}-${width}.png`),
       fullPage: true,
     });
     frontRendering.push({ width, ...frontBounds, alignment, screenshot: frontScreenshot });
@@ -317,7 +316,7 @@ test('actual browser fetches fresh Google CSV directly without credentials or a 
     },
   };
   writeFileSync(
-    testInfo.outputPath(page.url().includes(':4173') ? 'live-preview.json' : 'live-dev.json'),
+    testInfo.outputPath(`live-${runtimeLabel(page.url())}.json`),
     JSON.stringify(metrics, null, 2),
   );
   console.log('LIVE BROWSER', JSON.stringify(metrics));

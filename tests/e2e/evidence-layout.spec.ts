@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { mkdirSync, writeFileSync } from 'node:fs';
-import { mockSheet } from './helpers';
+import { mockSheet, runtimeLabel } from './helpers';
 
 for (const width of [1440, 1920, 1024, 751, 750, 390])
   test(`source evidence stays inside records with full-width analysis at ${width}px`, async ({
@@ -50,11 +50,10 @@ for (const width of [1440, 1920, 1024, 751, 750, 390])
     );
 
     if (width === 1440 || width === 390) {
-      const mode = testInfo.project.use.baseURL?.includes('4173') ? 'preview' : 'dev';
-      mkdirSync('docs/screenshots', { recursive: true });
-      mkdirSync('docs/verification', { recursive: true });
+      const mode = runtimeLabel(testInfo.project.use.baseURL);
+      mkdirSync(testInfo.outputDir, { recursive: true });
       writeFileSync(
-        `docs/verification/evidence-layout-fixture-${mode}-${width}.json`,
+        testInfo.outputPath(`evidence-layout-fixture-${mode}-${width}.json`),
         JSON.stringify(
           {
             viewport: page.viewportSize(),
@@ -70,7 +69,7 @@ for (const width of [1440, 1920, 1024, 751, 750, 390])
       );
       await evidence.getByText('All raw fields & validation', { exact: true }).click();
       await records.screenshot({
-        path: `docs/screenshots/evidence-layout-fixture-${mode}-${width}.png`,
+        path: testInfo.outputPath(`evidence-layout-fixture-${mode}-${width}.png`),
       });
     }
   });

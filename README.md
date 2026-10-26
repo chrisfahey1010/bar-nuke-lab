@@ -205,13 +205,17 @@ The original implementation handoff predates Git setup. The project now has a pu
 - Keep credentials, environment files and raw cookie-bearing HTTP headers out of Git, including its history. Ignore rules and secret scanners reduce accidental exposure but are not a guarantee against every secret or vulnerability.
 - `package.json` retains `"private": true` to prevent accidental npm publication; this does not affect GitHub repository visibility.
 
-### Planned Cloudflare Pages deployment
+### Cloudflare Workers deployment
 
-The intended custom domain is **bardata.win**. This is a static Vite application with these build settings:
+The deployment target is **Workers Static Assets**, not the legacy Pages workflow. The intended custom domain is **bardata.win**. The existing browser-only Vite app is retained; no backend Worker script or Google credentials are added.
 
-- Build command: `npm run build`
-- Build output directory: `dist`
-- Project root: repository root
-- Node.js: 22.12+ (locally verified with 22.23.0)
+- Node version: `.nvmrc` pins **22.23.0**; npm dependencies and Wrangler are locked.
+- Build/verification command: `npm run check` (tests → TypeScript/Vite build → offline Wrangler dry run).
+- Deploy command: `npm run deploy`; non-production preview command: `npm run deploy:preview`.
+- Output directory: `assets.directory: "./dist"` in `wrangler.jsonc`, with explicit SPA fallback; there is no dashboard output-directory field.
+- Workers runtime browser verification: `npm run test:worker` starts a loopback-only emulator and tests the built assets, security headers, source-file isolation and the existing dashboard behavior.
+- GitHub's **Verify** workflow audits dependencies, runs the checks and exercises the Workers-hosted browser suite without deployment credentials or a publishing step.
 
-This repository setup does **not** create a Cloudflare Pages project, connect GitHub, deploy the site, attach the domain or change DNS. Those are separate next steps. The dashboard continues to read its public Google CSV directly; no backend or source credentials are required.
+See **[deployment instructions](docs/deployment.md)** for the exact Cloudflare form fields, token handling, local verification and subsequent custom-domain setup. Baseline browser security headers are defined in `public/_headers`.
+
+Repository preparation does **not** create/deploy a Cloudflare project, attach the domain or change DNS. The dashboard continues to read its public Google CSV directly. Chris reports changing general Sheet link access to **Viewer**; owner-side permissions were not independently authenticated.

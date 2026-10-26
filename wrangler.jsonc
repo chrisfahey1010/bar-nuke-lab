@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "bar-nuke-lab",
+  "compatibility_date": "2026-10-26",
+  "workers_dev": true,
+  "preview_urls": true,
+  "send_metrics": false,
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application",
+  },
+}

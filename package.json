@@ -13,7 +13,13 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
     "test:e2e": "playwright test",
-    "test:preview": "playwright test --config playwright.preview.config.ts"
+    "test:preview": "playwright test --config playwright.preview.config.ts",
+    "test:worker": "playwright test --config playwright.worker.config.ts",
+    "worker:dev": "wrangler dev --local --ip 127.0.0.1 --port 8787 --show-interactive-dev-session=false",
+    "deploy:check": "wrangler deploy --dry-run --outdir .wrangler/dry-run",
+    "check": "npm run test && npm run build && npm run deploy:check",
+    "deploy": "wrangler deploy",
+    "deploy:preview": "wrangler preview"
   },
   "dependencies": {
     "@vitejs/plugin-react": "6.1.1",
@@ -23,6 +29,11 @@
     "react-dom": "19.3.0",
     "vite": "8.3.5",
     "zod": "4.6.7"
+  },
+  "overrides": {
+    "miniflare@5.20261019.2-beta": {
+      "undici": "7.30.1"
+    }
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.11.0",
@@ -35,6 +46,7 @@
     "jsdom": "26.1.0",
     "prettier": "3.9.9",
     "typescript": "^5.9.0",
-    "vitest": "5.0.5"
+    "vitest": "5.0.5",
+    "wrangler": "4.152.0"
   }
 }

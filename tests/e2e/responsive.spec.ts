@@ -8,7 +8,7 @@ for (const [width, height] of [
 ])
   test(`responsive viewport ${width}x${height} and nondefault placeholder-duration state`, async ({
     page,
-  }) => {
+  }, testInfo) => {
     await page.setViewportSize({ width, height });
     await mockSheet(page);
     await page.goto('/');
@@ -27,11 +27,10 @@ for (const [width, height] of [
     }));
     expect(metrics.documentWidth).toBeLessThanOrEqual(width + 1);
     if (width >= 1440) expect(metrics.chart!.bottom).toBeLessThanOrEqual(height);
-    mkdirSync('docs/screenshots', { recursive: true });
-    mkdirSync('docs/verification', { recursive: true });
-    writeFileSync(`docs/verification/layout-${width}.json`, JSON.stringify(metrics, null, 2));
+    mkdirSync(testInfo.outputDir, { recursive: true });
+    writeFileSync(testInfo.outputPath(`layout-${width}.json`), JSON.stringify(metrics, null, 2));
     await page.screenshot({
-      path: `docs/screenshots/default-${width}x${height}.png`,
+      path: testInfo.outputPath(`default-${width}x${height}.png`),
       fullPage: false,
     });
     await page.getByLabel('Role', { exact: true }).selectOption('Air');
@@ -54,7 +53,7 @@ for (const [width, height] of [
     await expect(clock).toHaveValue('720');
     await expect(page.locator('.js-plotly-plot')).toHaveCount(2);
     await page.screenshot({
-      path: `docs/screenshots/air-placeholder-duration-${width}x${height}.png`,
+      path: testInfo.outputPath(`air-placeholder-duration-${width}x${height}.png`),
       fullPage: false,
     });
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(
