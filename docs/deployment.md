@@ -81,6 +81,8 @@ The public feed remains readable and copyable. Chris reports that the Sheet's ge
 
 ## Continuous verification
 
+Cloudflare's GitHub app must include `bar-nuke-lab` in its **Only select repositories** access list, even though the source is public. A public repository can be cloned with read-only access without the app being installed on that repository; successful initial deployment is not proof that later GitHub push events are connected. Preserve existing repository selections when adding this one. If a push does not deploy, also check the Worker's **Settings → Build** Git connection, production branch (`main`) and automatic build trigger.
+
 `.github/workflows/verify.yml` runs on pushes to `main`, pull requests and manual dispatch. It uses SHA-pinned GitHub actions, read-only repository permissions, the pinned Node version, `npm ci`, a dependency audit, `npm run check`, and the Workers-hosted browser suite. It has **no Cloudflare credentials and no deployment step**. Pull requests use the ordinary unprivileged `pull_request` event, not `pull_request_target`.
 
 Cloudflare Workers Builds owns deployment authentication and production publishing. `deploy` and `deploy:preview` are explicit publishing commands; unlike `deploy:check`, they are not offline checks.

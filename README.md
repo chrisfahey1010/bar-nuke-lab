@@ -1,6 +1,8 @@
 # BAR Nuke Lab
 
-Local, read-only first-nuke timing dashboard for Chris's Supreme Isthmus 8v8 observations. React + TypeScript + Vite, modular Plotly scatter charts, Papa Parse, Zod, Vitest and Playwright.
+Live dashboard: **https://bardata.win** · [Deployment guide](docs/deployment.md)
+
+Read-only first-nuke timing dashboard for Chris's Supreme Isthmus 8v8 observations. React + TypeScript + Vite, modular Plotly scatter charts, Papa Parse, Zod, Vitest and Playwright.
 
 The existing implementation is the starting point for future revisions. The Google Sheet remains the editable source of truth; this app preserves source evidence and derives timing/coverage without writing back. Larger product goals will be defined in future requests, not inferred from the original implementation plan.
 
