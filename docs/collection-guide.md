@@ -8,7 +8,7 @@ Record apparent Other positions covered as comma- or semicolon-separated roles, 
 
 Record the FIRST nuclear shot/salvo, target roles and a brief outcome note. A double-nuke opening can stay one episode described in notes. Optional salvo size belongs in notes; legacy Num nukes launched is not automatically salvo size. Later missiles need no collection.
 
-Edit existing rows or add new rows in the same Sheet without renaming the column headers. Click Refresh in the dashboard to retrieve the update; no app rebuild is required. Auto-refresh also retrieves data every five minutes while the dashboard is visible and enabled. Check the validation queue for incomplete or mistyped cells. The app does not fix source values or reformat the Sheet.
+Edit existing rows or add new rows in the same Sheet without renaming the column headers. Click Refresh in the dashboard to retrieve the update; no app rebuild is required. Auto-refresh also retrieves data every hour while the dashboard is visible and enabled. Check the validation queue for incomplete or mistyped cells. The app does not fix source values or reformat the Sheet.
 
 Replay name is literal copyable evidence; this static app cannot open/launch local replays. No new ammo/status/complete-roster/event tabs or economy telemetry. Prefer consistent spectating selection and include short matches. Missing historical teams/durations stay visible rather than guessed.
 

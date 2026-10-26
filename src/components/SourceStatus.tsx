@@ -32,7 +32,7 @@ export function SourceStatus({ state, refresh, importFile, auto, setAuto, export
       <div className="source-actions">
         <label className="check">
           <input type="checkbox" checked={auto} onChange={(e) => setAuto(e.target.checked)} />
-          Auto-refresh · 5 min
+          Auto-refresh · 1 hour
         </label>
         <button aria-label="Refresh source" onClick={refresh}>
           Refresh

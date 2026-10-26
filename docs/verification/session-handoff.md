@@ -4,7 +4,15 @@ This is the saved project state from the first implementation and its approved l
 
 ## Delivered state
 
-### Latest revision: evidence nested inside source-linked records
+### Latest revision: hourly refresh on the Workers-hosted dashboard
+
+Auto-refresh now runs every **one hour**, only when enabled and the page is visible. The control reads **Auto-refresh · 1 hour**. Initial retrieval and the manual Refresh button remain immediate; importing a CSV/JSON still disables auto-refresh until explicitly re-enabled. Analytical calculations and Google read-only access are unchanged. This supersedes historical five-minute timing notes below and in the original agent context.
+
+`tests/e2e/auto-refresh.spec.ts` uses a deterministic CSV transport fixture and a browser-controlled clock: no request at five minutes or just before one hour, a request at one hour, immediate manual refresh, disabled/re-enabled behavior and the hidden-tab guard. These are not claimed as live Google observations. The existing real-source cases continue to use actual public Google GETs. Run `npm run check` and `npm run test:worker` for current verification.
+
+The user deployed the prepared Worker to `https://bardata.win`; an anonymous HTTPS check returned 200. `www.bardata.win` did not resolve when inspected. No DNS or Cloudflare domain settings were changed by this revision. The www setup and optional canonical redirect are documented in `../deployment.md`.
+
+### Earlier revision: evidence nested inside source-linked records
 
 The analysis main (`id="analysis"`) now occupies the full dashboard content width in all four views. Source evidence is rendered inside the Source-linked records panel, to the right of its table/sort/pagination column. Existing evidence widths remain 285px by default, 330px on wide desktops and 250px on intermediate screens. At 750px or less, evidence stacks beneath the records and pagination. The surrounding records panel has a shared border/background; table overflow stays local. Evidence still supports source inspection, provider navigation, raw fields, sticky desktop scrolling and focus on inspection. No analytical or source-data behavior changed.
 

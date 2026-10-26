@@ -22,7 +22,7 @@ test('once-per-game metadata import is explicit and does not write Google', asyn
   await expect(page.getByRole('status').first()).toContainText(
     'Imported · TEST-ONLY-once-per-game.csv',
   );
-  await expect(page.getByLabel('Auto-refresh · 5 min')).not.toBeChecked();
+  await expect(page.getByLabel('Auto-refresh · 1 hour')).not.toBeChecked();
   await expect(page.getByTestId('player-count')).toHaveText('16');
   await expect(page.getByRole('region', { name: 'Ongoing-game estimates' })).toContainText('2/16');
   await page.getByRole('tab', { name: 'Match Timeline' }).click();

@@ -83,7 +83,7 @@ The fixed public source is:
 
 `https://docs.google.com/spreadsheets/d/1KOvDzr5li30oBIp_yWNXyauAgZ9Tav4N7tJchd4CK_c/export?format=csv&gid=0`
 
-Fetch on open, **Refresh**, and every five minutes while the page is visible when auto-refresh is enabled. Requests use GET, omitted credentials, no-store caching and a 20-second timeout. A newer refresh/import supersedes older requests. Successful data is cached in browser localStorage. Failures or unusable source responses keep the last-good snapshot explicitly labeled cached/not freshly retrieved. Retrieval timestamps are not Sheet modification times.
+Fetch on open, **Refresh**, and every hour while the page is visible when auto-refresh is enabled. Requests use GET, omitted credentials, no-store caching and a 20-second timeout. A newer refresh/import supersedes older requests. Successful data is cached in browser localStorage. Failures or unusable source responses keep the last-good snapshot explicitly labeled cached/not freshly retrieved. Retrieval timestamps are not Sheet modification times.
 
 To update dashboard data, edit existing Sheet records or add rows, preserve the literal column headers, and click **Refresh**. No rebuild or restart is needed for data-only updates. Record times as elapsed `m:ss` or valid `h:mm:ss`; plain-text cells avoid accidental clock-time formatting. `Other positions covered` accepts comma- or semicolon-separated roles, for example `Sea beach, Front2`. A later valid game duration replaces a placeholder automatically. See [collection instructions](docs/collection-guide.md).
 

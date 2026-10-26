@@ -67,6 +67,16 @@ The build system supplies deployment authentication. Do not paste a token into t
 3. To attach the domain afterward, open the Worker → **Settings → Domains & Routes → Add → Custom Domain**, and enter `bardata.win`. Review the proposed DNS change before confirming. This is separate from repository preparation.
 4. Verify HTTPS, the same behavior at `https://bardata.win`, and the response security headers. Adding a custom domain can change DNS; do not alter records for other websites.
 
+### Make the www hostname work
+
+`https://bardata.win` is the deployed production site. A Custom Domain matches an exact hostname; the root domain does not automatically cover `www.bardata.win`. When checked before this refresh revision, the root returned HTTP 200 but www had no DNS resolution.
+
+To serve the same application on www, open **Workers & Pages → bar-nuke-lab → Settings → Domains & Routes → Add → Custom Domain**, enter **`www.bardata.win`**, review and confirm the DNS change, then wait for the hostname/certificate to become active. Keep the existing `bardata.win` Custom Domain. Cloudflare creates the DNS record and certificate; a CNAME alone is not a substitute for binding the hostname to the Worker.
+
+Optionally keep the root as the canonical URL using a zone **Redirect Rule**: match `http.host eq "www.bardata.win"`, use the dynamic target `concat("https://bardata.win", http.request.uri.path)`, select **301**, and enable **Preserve query string**. The www Custom Domain supplies the proxied DNS/TLS prerequisite; alternatively follow Cloudflare's documented proxied-DNS setup for a redirect-only hostname. No redirect or DNS change is applied by application Git pushes.
+
+References: [Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/) and [www-to-root redirects](https://developers.cloudflare.com/rules/url-forwarding/examples/redirect-www-to-root/).
+
 The public feed remains readable and copyable. Chris reports that the Sheet's general link access has been changed from Editor to **Viewer**; that setting was not independently verified through an authenticated Google permissions API. Keep Editor access limited to trusted collaborators.
 
 ## Continuous verification

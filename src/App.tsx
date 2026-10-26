@@ -26,6 +26,7 @@ function browserStorage() {
 }
 const store = createDatasetStore(fetchSheet, browserStorage());
 const TABS = ['Timing Window', 'OS Relationship', 'Match Timeline', 'Data Explorer'];
+const AUTO_REFRESH_INTERVAL_MS = 60 * 60 * 1000;
 function download(text: string, name: string, mime: string) {
   const url = URL.createObjectURL(new Blob([text], { type: mime }));
   const a = document.createElement('a');
@@ -74,7 +75,7 @@ export default function App() {
     if (!auto) return;
     const timer = setInterval(() => {
       if (document.visibilityState === 'visible') void store.refresh();
-    }, 300000);
+    }, AUTO_REFRESH_INTERVAL_MS);
     return () => clearInterval(timer);
   }, [auto]);
   const targetRows = useMemo(() => (c ? selectRows(c, filters) : []), [c, filters]);
