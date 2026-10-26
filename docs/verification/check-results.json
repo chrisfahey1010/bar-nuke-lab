@@ -1,0 +1,91 @@
+{
+  "verifiedAt": "2026-09-30T10:50:30.972956+00:00",
+  "checks": [
+    {
+      "check": "unit",
+      "command": "npm run test",
+      "exitCode": 0,
+      "log": "docs/verification/unit.log",
+      "passedTests": 36
+    },
+    {
+      "check": "typecheck",
+      "command": "npm run typecheck",
+      "exitCode": 0,
+      "log": "docs/verification/typecheck.log"
+    },
+    {
+      "check": "build",
+      "command": "npm run build",
+      "exitCode": 0,
+      "log": "docs/verification/build.log"
+    },
+    {
+      "check": "dev-browser",
+      "command": "npm run test:e2e",
+      "exitCode": 0,
+      "log": "docs/verification/dev-browser.log",
+      "passedTests": 19
+    },
+    {
+      "check": "preview-browser",
+      "command": "npm run test:preview",
+      "exitCode": 0,
+      "log": "docs/verification/preview-browser.log",
+      "passedTests": 19
+    },
+    {
+      "check": "audit",
+      "command": "npm audit --audit-level=moderate",
+      "exitCode": 0,
+      "log": "docs/verification/audit.log"
+    },
+    {
+      "check": "format",
+      "command": "npx prettier --check src tests *.ts *.json",
+      "exitCode": 0,
+      "log": "docs/verification/format.log"
+    }
+  ],
+  "allExitCodesZero": true,
+  "screenshots": [
+    {
+      "file": "docs/screenshots/air-missing-duration-1440x900.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 159403
+    },
+    {
+      "file": "docs/screenshots/air-missing-duration-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 181396
+    },
+    {
+      "file": "docs/screenshots/air-missing-duration-390x844.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 64221
+    },
+    {
+      "file": "docs/screenshots/default-1440x900.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 172248
+    },
+    {
+      "file": "docs/screenshots/default-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 187133
+    },
+    {
+      "file": "docs/screenshots/default-390x844.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 66856
+    }
+  ],
+  "sourceTestTreeSha256": "44b909df356c6af34d0e6b12e23a6a45cebb409218b6caf4698a7f0f945b743a",
+  "inspectionLimitation": "Direct screenshot pixel inspection was blocked by the browser inspection tool provider/profile lock. Actual Playwright capture, built DOM geometry, overflow, keyboard and accessibility tests ran successfully."
+}

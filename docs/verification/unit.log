@@ -1,0 +1,11 @@
+> bar-nuke-lab@1.0.0 test
+> vitest run
+
+
+ RUN  v5.0.2 /home/chris/dev/localprojs/bar-nuke-lab
+
+
+ Test Files  18 passed (18)
+      Tests  36 passed (36)
+   Start at  03:50:07
+   Duration  348ms (import 41%, transform 26%, environment 21%, tests 10%, worker 2%)

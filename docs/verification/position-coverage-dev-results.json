@@ -1,0 +1,2020 @@
+{
+  "config": {
+    "argv": [
+      "/home/chris/.hermes/node/bin/node",
+      "/home/chris/dev/localprojs/bar-nuke-lab/node_modules/.bin/playwright",
+      "test",
+      "--reporter=list,json",
+      "--output=/home/chris/.hermes/cache/scratch/bar-position-dev"
+    ],
+    "configFile": "/home/chris/dev/localprojs/bar-nuke-lab/playwright.config.ts",
+    "rootDir": "/home/chris/dev/localprojs/bar-nuke-lab/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/chris/.hermes/cache/scratch/bar-position-dev",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/home/chris/dev/localprojs/bar-nuke-lab/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 2,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true,
+      "timeout": 60000
+    }
+  },
+  "suites": [
+    {
+      "title": "accessibility.spec.ts",
+      "file": "accessibility.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "accessible Timing Window view and methodology dialog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2066,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:23.218Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-ceee18f4249ed18d1e8c",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "accessible OS Relationship view and methodology dialog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1646,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:25.345Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-613dbd4322624db37b91",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "accessible Match Timeline view and methodology dialog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1528,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:27.000Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-089632b294b9d65c141f",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "accessible Data Explorer view and methodology dialog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1479,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:28.534Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-28df6514cdbfd559f6ef",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "keyboard tabs, skip link, record focus and linked selection work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 860,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:30.019Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-8cc3db09483762341e85",
+          "file": "accessibility.spec.ts",
+          "line": 26,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "builder-coverage-live.spec.ts",
+      "file": "builder-coverage-live.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "live builder coverage bars reconcile with recorded own builders in desktop and mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3223,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:23.199Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bd05683c77a2fc47eb6a-92f8f4aaa5a09742561b",
+          "file": "builder-coverage-live.spec.ts",
+          "line": 9,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "builder-coverage.spec.ts",
+      "file": "builder-coverage.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "additional-position coverage uses builders own OS, with zero/one/multi shares and source evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 932,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:26.490Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c3876495b3f4fab7e2f7-1030c728b78b0570d1a4",
+          "file": "builder-coverage.spec.ts",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "coverage plot keeps its physical height after filter rerenders and desktop/mobile resizing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1032,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:27.430Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c3876495b3f4fab7e2f7-ae8350523ecefc4d134c",
+          "file": "builder-coverage.spec.ts",
+          "line": 72,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "chart-linking.spec.ts",
+      "file": "chart-linking.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "actual Plotly point click and box brush link record evidence and cohort counts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1177,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:28.469Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e5f0fb7fa86aa37e3b0e-58b386fd20e03e7cf1f6",
+          "file": "chart-linking.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "unconfirmed long endpoints still expose review and do not inherit the Game 7 correction",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 646,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:29.652Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e5f0fb7fa86aa37e3b0e-32bc075e1aff259a98b7",
+          "file": "chart-linking.spec.ts",
+          "line": 32,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "diagnostic.spec.ts",
+      "file": "diagnostic.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "modular Plotly actually renders both timing and OS charts without browser errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 801,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:30.310Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "92257fb6bc5544758cc3-3e1f998603dd35ce790e",
+          "file": "diagnostic.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "duration-assumptions.spec.ts",
+      "file": "duration-assumptions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "duration assumptions are visible and used in Tech coverage without changing raw evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 947,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:30.891Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c452b873c62e1c2d2d7b-379e4ede76f92aab4a4b",
+          "file": "duration-assumptions.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "front-filters.spec.ts",
+      "file": "front-filters.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "shared front selector precedes AN type, filters all views, resets selection and preserves allied context",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1111,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:31.123Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bfa72bb0ab2509b23a9d-a152807d243e61fa084c",
+          "file": "front-filters.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "front-situation.spec.ts",
+      "file": "front-situation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "front panel compares builder events by position without labeling covered nonbuilders",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 897,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:31.881Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f0c42a100699c198427a-7c65c8abf4d4f8376551",
+          "file": "front-situation.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "observed post-end modeled readiness is explicitly outside the match, not online",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 690,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:32.785Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f0c42a100699c198427a-98a5b289e79ed7b0d768",
+          "file": "front-situation.spec.ts",
+          "line": 102,
+          "column": 1
+        },
+        {
+          "title": "qualifying median and IQR overlays retain source inspection at a median intersection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 856,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:33.481Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f0c42a100699c198427a-4380494d8182572f898b",
+          "file": "front-situation.spec.ts",
+          "line": 131,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "front-window-layout.spec.ts",
+      "file": "front-window-layout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "front panel matches timing width and plotted 12:00–25:00 endpoints at 1440px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1394,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:32.245Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd08145532becd1e499e-593891ef8b9afa6e8ecf",
+          "file": "front-window-layout.spec.ts",
+          "line": 22,
+          "column": 3
+        },
+        {
+          "title": "front panel matches timing width and plotted 12:00–25:00 endpoints at 1920px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1406,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:33.647Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd08145532becd1e499e-d44e3a2d4f0a5698ea5e",
+          "file": "front-window-layout.spec.ts",
+          "line": 22,
+          "column": 3
+        },
+        {
+          "title": "front panel matches timing width and plotted 12:00–25:00 endpoints at 390px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1438,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:35.062Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd08145532becd1e499e-2e0649879d05f983a3e6",
+          "file": "front-window-layout.spec.ts",
+          "line": 22,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "game-clock.spec.ts",
+      "file": "game-clock.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "game clock spans 12:00–25:00 with one-second steps at width 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1034,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:34.344Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dad4674b593c14a4f5c4-60e98036ba272a260d6a",
+          "file": "game-clock.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "game clock spans 12:00–25:00 with one-second steps at width 390",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 947,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:35.382Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dad4674b593c14a4f5c4-cf194cfe86b2c0eadc37",
+          "file": "game-clock.spec.ts",
+          "line": 5,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "linked-filters.spec.ts",
+      "file": "linked-filters.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "shared filters link timing, OS view, source table and record evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 858,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:36.336Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2b323ea62da21d0e321-6ed3e5e02e9bd5433710",
+          "file": "linked-filters.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "live-source.spec.ts",
+      "file": "live-source.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "actual browser fetches fresh Google CSV directly without credentials or a dev proxy",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4992,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "LIVE BROWSER {\"url\":\"http://127.0.0.1:5173/\",\"responseStatus\":200,\"sourceResponseUrl\":\"https://doc-0s-2k-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/vm1qn19uhea015obe1vqh50n18/1790941715000/112118880661531280786/*/1KOvDzr5li30oBIp_yWNXyauAgZ9Tav4N7tJchd4CK_c?format=csv&gid=0\",\"retrievedAt\":\"2026-10-02T11:48:41.502Z\",\"rows\":531,\"games\":36,\"validAnTimes\":180,\"durations\":[{\"game\":\"1\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"2\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"3\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"4\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"5\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"6\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"7\",\"duration\":1743,\"raw\":[\"29:03\"],\"durationSource\":\"recorded\",\"recordedDuration\":1743,\"durationNote\":\"\"},{\"game\":\"8\",\"duration\":1680,\"raw\":[\"28:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1680,\"durationNote\":\"\"},{\"game\":\"9\",\"duration\":940,\"raw\":[\"15:40\"],\"durationSource\":\"recorded\",\"recordedDuration\":940,\"durationNote\":\"\"},{\"game\":\"10\",\"duration\":2880,\"raw\":[\"48:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":2880,\"durationNote\":\"\"},{\"game\":\"11\",\"duration\":1030,\"raw\":[\"17:10\"],\"durationSource\":\"recorded\",\"recordedDuration\":1030,\"durationNote\":\"\"},{\"game\":\"12\",\"duration\":1388,\"raw\":[\"23:08\"],\"durationSource\":\"recorded\",\"recordedDuration\":1388,\"durationNote\":\"\"},{\"game\":\"13\",\"duration\":3540,\"raw\":[\"59:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":3540,\"durationNote\":\"\"},{\"game\":\"14\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"15\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"16\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"17\",\"duration\":1622,\"raw\":[\"27:02\"],\"durationSource\":\"recorded\",\"recordedDuration\":1622,\"durationNote\":\"\"},{\"game\":\"18\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"19\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"20\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"21\",\"duration\":640,\"raw\":[\"10:40\"],\"durationSource\":\"recorded\",\"recordedDuration\":640,\"durationNote\":\"\"},{\"game\":\"22\",\"duration\":790,\"raw\":[\"13:10\"],\"durationSource\":\"recorded\",\"recordedDuration\":790,\"durationNote\":\"\"},{\"game\":\"23\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"24\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"25\",\"duration\":592,\"raw\":[\"9:52\"],\"durationSource\":\"recorded\",\"recordedDuration\":592,\"durationNote\":\"\"},{\"game\":\"26\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"27\",\"duration\":1010,\"raw\":[\"16:50\"],\"durationSource\":\"recorded\",\"recordedDuration\":1010,\"durationNote\":\"\"},{\"game\":\"28\",\"duration\":1305,\"raw\":[\"21:45\"],\"durationSource\":\"recorded\",\"recordedDuration\":1305,\"durationNote\":\"\"},{\"game\":\"29\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"30\",\"duration\":990,\"raw\":[\"16:30\"],\"durationSource\":\"recorded\",\"recordedDuration\":990,\"durationNote\":\"\"},{\"game\":\"31\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"32\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"33\",\"duration\":1120,\"raw\":[\"18:40\"],\"durationSource\":\"recorded\",\"recordedDuration\":1120,\"durationNote\":\"\"},{\"game\":\"34\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"35\",\"duration\":1800,\"raw\":[\"30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"36\",\"duration\":1800,\"raw\":[],\"durationSource\":\"placeholder\",\"recordedDuration\":null,\"durationNote\":\"30:00 placeholder for unknown duration; not a recorded endpoint.\"}],\"proxy\":false,\"readiness\":{\"positions\":[\"Air\",\"Tech\",\"Geo\",\"Pond\",\"Sea geo\",\"Sea beach\",\"Front1\",\"Front2\"],\"verifiedSecondsPerCurve\":781,\"explicitRole\":\"Air\",\"rendering\":[{\"width\":1440,\"chart\":{\"x\":35,\"y\":583.125,\"width\":625,\"height\":314.09375,\"top\":583.125,\"right\":660,\"bottom\":897.21875,\"left\":35},\"horizontalOverflow\":false,\"titleOverflow\":-19.09375,\"screenshot\":\"/home/chris/.hermes/cache/scratch/bar-position-dev/live-source-actual-browser-7de7d--credentials-or-a-dev-proxy/readiness-window-live-dev-1440.png\"},{\"width\":390,\"chart\":{\"x\":25,\"y\":281.390625,\"width\":340,\"height\":300,\"top\":281.390625,\"right\":365,\"bottom\":581.390625,\"left\":25},\"horizontalOverflow\":false,\"titleOverflow\":-19,\"screenshot\":\"/home/chris/.hermes/cache/scratch/bar-position-dev/live-source-actual-browser-7de7d--credentials-or-a-dev-proxy/readiness-window-live-dev-390.png\"}]},\"frontSituation\":{\"points\":150,\"games\":29,\"exclusions\":{\"nonbuilders\":349,\"unavailableTiming\":2,\"missingFront\":28,\"unrecognizedFront\":0,\"laterBuilds\":0,\"modeledAfterEnd\":2},\"rendering\":[{\"width\":1440,\"chart\":{\"x\":35,\"y\":1038.21875,\"width\":625,\"height\":525,\"top\":1038.21875,\"right\":660,\"bottom\":1563.21875,\"left\":35},\"horizontalOverflow\":false,\"labelOverflow\":0,\"alignment\":{\"widthDifference\":0,\"endpointDifference\":0,\"timing\":{\"range\":[12,25],\"x\":[117,632]},\"front\":{\"range\":[12,25],\"x\":[117,632]}},\"screenshot\":\"/home/chris/.hermes/cache/scratch/bar-position-dev/live-source-actual-browser-7de7d--credentials-or-a-dev-proxy/front-situation-live-dev-1440.png\"},{\"width\":390,\"chart\":{\"x\":25,\"y\":1187.984375,\"width\":340,\"height\":525,\"top\":1187.984375,\"right\":365,\"bottom\":1712.984375,\"left\":25},\"horizontalOverflow\":false,\"labelOverflow\":0,\"alignment\":{\"widthDifference\":0,\"endpointDifference\":0,\"timing\":{\"range\":[12,25],\"x\":[107,337]},\"front\":{\"range\":[12,25],\"x\":[107,337]}},\"screenshot\":\"/home/chris/.hermes/cache/scratch/bar-position-dev/live-source-actual-browser-7de7d--credentials-or-a-dev-proxy/front-situation-live-dev-390.png\"}],\"filteredSituations\":[{\"front\":\"Advantage\",\"rows\":58,\"points\":55,\"own\":{\"numerator\":9,\"n\":54,\"percentage\":16.666666666666664},\"coverage\":{\"numerator\":9,\"n\":54,\"percentage\":16.666666666666664},\"verifiedSeconds\":781,\"positions\":[\"Air\",\"Tech\",\"Geo\",\"Pond\",\"Sea geo\",\"Sea beach\",\"Front1\",\"Front2\"],\"verifiedSecondsPerCurve\":781},{\"front\":\"Equal\",\"rows\":49,\"points\":48,\"own\":{\"numerator\":11,\"n\":49,\"percentage\":22.448979591836736},\"coverage\":{\"numerator\":11,\"n\":49,\"percentage\":22.448979591836736},\"verifiedSeconds\":781,\"positions\":[\"Air\",\"Tech\",\"Geo\",\"Pond\",\"Sea geo\",\"Sea beach\",\"Front1\",\"Front2\"],\"verifiedSecondsPerCurve\":781},{\"front\":\"Disadvantage\",\"rows\":49,\"points\":47,\"own\":{\"numerator\":6,\"n\":49,\"percentage\":12.244897959183673},\"coverage\":{\"numerator\":7,\"n\":49,\"percentage\":14.285714285714285},\"verifiedSeconds\":781,\"positions\":[\"Air\",\"Tech\",\"Geo\",\"Pond\",\"Sea geo\",\"Sea beach\",\"Front1\",\"Front2\"],\"verifiedSecondsPerCurve\":781}]}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:36.524Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "df311949eb387111a1af-8a9b8a9904c641857eb9",
+          "file": "live-source.spec.ts",
+          "line": 71,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "opening-strike.spec.ts",
+      "file": "opening-strike.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "timeline groups explicit teams and shows opening double-salvo evidence, not later campaign analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 825,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:37.200Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8e8cf3fb2803eed5e792-22b585b824bda6a63670",
+          "file": "opening-strike.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "os-owned-builders.spec.ts",
+      "file": "os-owned-builders.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "compact and full OS charts label and plot only own AN builders with their own OS",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 891,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:38.039Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ccc1b73f91cdfa42ce4a-92b751815124cb0d0ebc",
+          "file": "os-owned-builders.spec.ts",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "own-builder counts stay cohort-based across layers, target filters and desktop/mobile layouts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3265,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:38.936Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ccc1b73f91cdfa42ce4a-78debd08e366267131eb",
+          "file": "os-owned-builders.spec.ts",
+          "line": 118,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "os-trendlines.spec.ts",
+      "file": "os-trendlines.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "quadratic role curves and points toggle independently without changing the cohort",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 984,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:41.528Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3a0adbc7d852ab8b641b-0784947ea71955996f11",
+          "file": "os-trendlines.spec.ts",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "compact chart has a position color key and shares keyboard layer preferences with the full view",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 762,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:42.520Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3a0adbc7d852ab8b641b-1c0dce659904c2209c27",
+          "file": "os-trendlines.spec.ts",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "fits follow filters and timing basis, and position legend toggles do not filter source records",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 888,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:43.288Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3a0adbc7d852ab8b641b-1dc37653662fda0386d1",
+          "file": "os-trendlines.spec.ts",
+          "line": 104,
+          "column": 1
+        },
+        {
+          "title": "ranked zero is fitted, repeated times do not invent a curve, and off-screen records remain in fits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 756,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:44.185Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3a0adbc7d852ab8b641b-00434ae854ac5cb93d97",
+          "file": "os-trendlines.spec.ts",
+          "line": 138,
+          "column": 1
+        },
+        {
+          "title": "hiding a position survives independent layer changes without changing the cohort",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1153,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:44.947Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3a0adbc7d852ab8b641b-3f4c0a9031b536f78ad3",
+          "file": "os-trendlines.spec.ts",
+          "line": 197,
+          "column": 1
+        },
+        {
+          "title": "mobile full chart keeps axis titles within bounds and clear of a dense position legend",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 723,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:46.104Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3a0adbc7d852ab8b641b-61eab5e964fc28d6b929",
+          "file": "os-trendlines.spec.ts",
+          "line": 241,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "readiness-window.spec.ts",
+      "file": "readiness-window.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "All roles plots only recorded coverage by retained target position with the OS palette",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 991,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:42.221Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "259d0566b843c9b4352c-035b549c1e77afe365d3",
+          "file": "readiness-window.spec.ts",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "unknown target positions stay distinct, neutrally colored and literally labeled",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 657,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:43.219Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "259d0566b843c9b4352c-b13df8b805ec358fb894",
+          "file": "readiness-window.spec.ts",
+          "line": 94,
+          "column": 1
+        },
+        {
+          "title": "All roles remains position-stratified when non-role filters retain one role and its provider is hidden",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 963,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:43.882Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "259d0566b843c9b4352c-89173e564e3ee846a8fc",
+          "file": "readiness-window.spec.ts",
+          "line": 128,
+          "column": 1
+        },
+        {
+          "title": "readiness curves match the cards and remove ended games rather than counting them uncovered",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 957,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:44.851Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "259d0566b843c9b4352c-c3de016e3c86553eb479",
+          "file": "readiness-window.spec.ts",
+          "line": 193,
+          "column": 1
+        },
+        {
+          "title": "readiness curves follow partial-roster opt-in and retain providers outside target filters",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 799,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:45.814Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "259d0566b843c9b4352c-ba692aacc79a3c9ca48b",
+          "file": "readiness-window.spec.ts",
+          "line": 237,
+          "column": 1
+        },
+        {
+          "title": "readiness curves follow linked row selection and distinguish unknown coverage from zero",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 909,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:46.619Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "259d0566b843c9b4352c-c1b56d315a09595f9033",
+          "file": "readiness-window.spec.ts",
+          "line": 257,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "recovery-export.spec.ts",
+      "file": "recovery-export.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "once-per-game metadata import is explicit and does not write Google",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 759,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:46.834Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fa69839f43a048d717cf-e3b7490f458c438c743e",
+          "file": "recovery-export.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "failed refresh and HTML preserve cached rows; later valid additions appear and are announced",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 883,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:47.599Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fa69839f43a048d717cf-74dfe314629c7e3918c0",
+          "file": "recovery-export.spec.ts",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "filtered CSV and JSON downloads retain raw values and model/provider provenance",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 755,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:48.490Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fa69839f43a048d717cf-2a9a4bd0c903e0f8b44e",
+          "file": "recovery-export.spec.ts",
+          "line": 70,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "responsive.spec.ts",
+      "file": "responsive.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "responsive viewport 1440x900 and nondefault placeholder-duration state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1109,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:47.534Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0223b006feb3d306446-67405ddd737f236548d1",
+          "file": "responsive.spec.ts",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "responsive viewport 1920x1080 and nondefault placeholder-duration state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1110,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:48.648Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0223b006feb3d306446-0f1ac013ec8f38e0fb66",
+          "file": "responsive.spec.ts",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "responsive viewport 390x844 and nondefault placeholder-duration state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1014,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:49.762Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0223b006feb3d306446-86802daeb31607bdfab4",
+          "file": "responsive.spec.ts",
+          "line": 9,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "time-axis.spec.ts",
+      "file": "time-axis.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "OS charts put 12:00–25:00 readiness on X and OS on Y in both sizes and timing modes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 886,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:49.257Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "60ace0c1770a1b15e5d4-176f8a581767b8a159f2",
+          "file": "time-axis.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "both time endpoints render visibly inside compact, full and mobile chart bounds",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1747,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:50.148Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "60ace0c1770a1b15e5d4-f0d085f0f6b2c4d3902f",
+          "file": "time-axis.spec.ts",
+          "line": 51,
+          "column": 1
+        },
+        {
+          "title": "Timing Window stays at 12:00–25:00 while retaining early and late observations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 794,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:51.900Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "60ace0c1770a1b15e5d4-24142bd6ae87142e2280",
+          "file": "time-axis.spec.ts",
+          "line": 82,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "timing-window-layout.spec.ts",
+      "file": "timing-window-layout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "timing panel omits hypothesis shading and retains the game-clock marker",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 848,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:50.784Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "149c81d048e9d9818f3e-25839df0ba661a0fa6da",
+          "file": "timing-window-layout.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "timing chart fills its panel at width 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1466,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:51.637Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "149c81d048e9d9818f3e-f1c9eacc31ad79e2304c",
+          "file": "timing-window-layout.spec.ts",
+          "line": 30,
+          "column": 3
+        },
+        {
+          "title": "timing chart fills its panel at width 1920",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1354,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:53.109Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "149c81d048e9d9818f3e-2baffa428c39810af051",
+          "file": "timing-window-layout.spec.ts",
+          "line": 30,
+          "column": 3
+        },
+        {
+          "title": "mobile timing axis titles remain fully inside the chart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 792,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:54.469Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "149c81d048e9d9818f3e-95776c13430534096814",
+          "file": "timing-window-layout.spec.ts",
+          "line": 76,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "unknown-completion.spec.ts",
+      "file": "unknown-completion.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "type without completion is unknown in the selected evidence, not a confirmed nonbuilder",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 706,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-02T11:48:52.702Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "31c2eb4ac56cc317189b-cdb2aba2e88975975231",
+          "file": "unknown-completion.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-02T11:48:22.785Z",
+    "duration": 32517.239999999998,
+    "expected": 52,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

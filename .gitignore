@@ -1,0 +1,25 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+test-results-preview/
+playwright-report-preview/
+.browser/
+*.local
+
+# Local secrets and Cloudflare development state
+.env
+.env.*
+!.env.example
+!.env.*.example
+.dev.vars
+.dev.vars.*
+.wrangler/
+
+# Raw acquisition response headers can contain cookies
+/data/acquisitions/*.headers
+
+# Generated tooling output
+coverage/
+*.tsbuildinfo
+.DS_Store

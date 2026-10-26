@@ -1,0 +1,595 @@
+{
+  "url": "http://127.0.0.1:4173/",
+  "responseStatus": 200,
+  "sourceResponseUrl": "https://doc-0s-2k-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/3c96nbebue1l4ikja2s5inrepc/1790942335000/112118880661531280786/*/1KOvDzr5li30oBIp_yWNXyauAgZ9Tav4N7tJchd4CK_c?format=csv&gid=0",
+  "retrievedAt": "2026-10-02T11:59:02.935Z",
+  "rows": 531,
+  "games": 36,
+  "validAnTimes": 180,
+  "durations": [
+    {
+      "game": "1",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "2",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "3",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "4",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "5",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "6",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "7",
+      "duration": 1743,
+      "raw": [
+        "29:03"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1743,
+      "durationNote": ""
+    },
+    {
+      "game": "8",
+      "duration": 1680,
+      "raw": [
+        "28:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1680,
+      "durationNote": ""
+    },
+    {
+      "game": "9",
+      "duration": 940,
+      "raw": [
+        "15:40"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 940,
+      "durationNote": ""
+    },
+    {
+      "game": "10",
+      "duration": 2880,
+      "raw": [
+        "48:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 2880,
+      "durationNote": ""
+    },
+    {
+      "game": "11",
+      "duration": 1030,
+      "raw": [
+        "17:10"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1030,
+      "durationNote": ""
+    },
+    {
+      "game": "12",
+      "duration": 1388,
+      "raw": [
+        "23:08"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1388,
+      "durationNote": ""
+    },
+    {
+      "game": "13",
+      "duration": 3540,
+      "raw": [
+        "59:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 3540,
+      "durationNote": ""
+    },
+    {
+      "game": "14",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "15",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "16",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "17",
+      "duration": 1622,
+      "raw": [
+        "27:02"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1622,
+      "durationNote": ""
+    },
+    {
+      "game": "18",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "19",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "20",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "21",
+      "duration": 640,
+      "raw": [
+        "10:40"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 640,
+      "durationNote": ""
+    },
+    {
+      "game": "22",
+      "duration": 790,
+      "raw": [
+        "13:10"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 790,
+      "durationNote": ""
+    },
+    {
+      "game": "23",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "24",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "25",
+      "duration": 592,
+      "raw": [
+        "9:52"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 592,
+      "durationNote": ""
+    },
+    {
+      "game": "26",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "27",
+      "duration": 1010,
+      "raw": [
+        "16:50"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1010,
+      "durationNote": ""
+    },
+    {
+      "game": "28",
+      "duration": 1305,
+      "raw": [
+        "21:45"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1305,
+      "durationNote": ""
+    },
+    {
+      "game": "29",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "30",
+      "duration": 990,
+      "raw": [
+        "16:30"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 990,
+      "durationNote": ""
+    },
+    {
+      "game": "31",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "32",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "33",
+      "duration": 1120,
+      "raw": [
+        "18:40"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1120,
+      "durationNote": ""
+    },
+    {
+      "game": "34",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "35",
+      "duration": 1800,
+      "raw": [
+        "30:00"
+      ],
+      "durationSource": "recorded",
+      "recordedDuration": 1800,
+      "durationNote": ""
+    },
+    {
+      "game": "36",
+      "duration": 1800,
+      "raw": [],
+      "durationSource": "placeholder",
+      "recordedDuration": null,
+      "durationNote": "30:00 placeholder for unknown duration; not a recorded endpoint."
+    }
+  ],
+  "proxy": false,
+  "readiness": {
+    "positions": [
+      "Air",
+      "Tech",
+      "Geo",
+      "Pond",
+      "Sea geo",
+      "Sea beach",
+      "Front1",
+      "Front2"
+    ],
+    "verifiedSecondsPerCurve": 781,
+    "explicitRole": "Air",
+    "rendering": [
+      {
+        "width": 1440,
+        "chart": {
+          "x": 35,
+          "y": 583.125,
+          "width": 625,
+          "height": 314.09375,
+          "top": 583.125,
+          "right": 660,
+          "bottom": 897.21875,
+          "left": 35
+        },
+        "horizontalOverflow": false,
+        "titleOverflow": -19.09375,
+        "screenshot": "/home/chris/.hermes/cache/scratch/bar-position-preview/live-source-actual-browser-7de7d--credentials-or-a-dev-proxy/readiness-window-live-preview-1440.png"
+      },
+      {
+        "width": 390,
+        "chart": {
+          "x": 25,
+          "y": 281.390625,
+          "width": 340,
+          "height": 300,
+          "top": 281.390625,
+          "right": 365,
+          "bottom": 581.390625,
+          "left": 25
+        },
+        "horizontalOverflow": false,
+        "titleOverflow": -19,
+        "screenshot": "/home/chris/.hermes/cache/scratch/bar-position-preview/live-source-actual-browser-7de7d--credentials-or-a-dev-proxy/readiness-window-live-preview-390.png"
+      }
+    ]
+  },
+  "frontSituation": {
+    "points": 150,
+    "games": 29,
+    "exclusions": {
+      "nonbuilders": 349,
+      "unavailableTiming": 2,
+      "missingFront": 28,
+      "unrecognizedFront": 0,
+      "laterBuilds": 0,
+      "modeledAfterEnd": 2
+    },
+    "rendering": [
+      {
+        "width": 1440,
+        "chart": {
+          "x": 35,
+          "y": 1038.21875,
+          "width": 625,
+          "height": 525,
+          "top": 1038.21875,
+          "right": 660,
+          "bottom": 1563.21875,
+          "left": 35
+        },
+        "horizontalOverflow": false,
+        "labelOverflow": 0,
+        "alignment": {
+          "widthDifference": 0,
+          "endpointDifference": 0,
+          "timing": {
+            "range": [
+              12,
+              25
+            ],
+            "x": [
+              117,
+              632
+            ]
+          },
+          "front": {
+            "range": [
+              12,
+              25
+            ],
+            "x": [
+              117,
+              632
+            ]
+          }
+        },
+        "screenshot": "/home/chris/.hermes/cache/scratch/bar-position-preview/live-source-actual-browser-7de7d--credentials-or-a-dev-proxy/front-situation-live-preview-1440.png"
+      },
+      {
+        "width": 390,
+        "chart": {
+          "x": 25,
+          "y": 1187.984375,
+          "width": 340,
+          "height": 525,
+          "top": 1187.984375,
+          "right": 365,
+          "bottom": 1712.984375,
+          "left": 25
+        },
+        "horizontalOverflow": false,
+        "labelOverflow": 0,
+        "alignment": {
+          "widthDifference": 0,
+          "endpointDifference": 0,
+          "timing": {
+            "range": [
+              12,
+              25
+            ],
+            "x": [
+              107,
+              337
+            ]
+          },
+          "front": {
+            "range": [
+              12,
+              25
+            ],
+            "x": [
+              107,
+              337
+            ]
+          }
+        },
+        "screenshot": "/home/chris/.hermes/cache/scratch/bar-position-preview/live-source-actual-browser-7de7d--credentials-or-a-dev-proxy/front-situation-live-preview-390.png"
+      }
+    ],
+    "filteredSituations": [
+      {
+        "front": "Advantage",
+        "rows": 58,
+        "points": 55,
+        "own": {
+          "numerator": 9,
+          "n": 54,
+          "percentage": 16.666666666666664
+        },
+        "coverage": {
+          "numerator": 9,
+          "n": 54,
+          "percentage": 16.666666666666664
+        },
+        "verifiedSeconds": 781,
+        "positions": [
+          "Air",
+          "Tech",
+          "Geo",
+          "Pond",
+          "Sea geo",
+          "Sea beach",
+          "Front1",
+          "Front2"
+        ],
+        "verifiedSecondsPerCurve": 781
+      },
+      {
+        "front": "Equal",
+        "rows": 49,
+        "points": 48,
+        "own": {
+          "numerator": 11,
+          "n": 49,
+          "percentage": 22.448979591836736
+        },
+        "coverage": {
+          "numerator": 11,
+          "n": 49,
+          "percentage": 22.448979591836736
+        },
+        "verifiedSeconds": 781,
+        "positions": [
+          "Air",
+          "Tech",
+          "Geo",
+          "Pond",
+          "Sea geo",
+          "Sea beach",
+          "Front1",
+          "Front2"
+        ],
+        "verifiedSecondsPerCurve": 781
+      },
+      {
+        "front": "Disadvantage",
+        "rows": 49,
+        "points": 47,
+        "own": {
+          "numerator": 6,
+          "n": 49,
+          "percentage": 12.244897959183673
+        },
+        "coverage": {
+          "numerator": 7,
+          "n": 49,
+          "percentage": 14.285714285714285
+        },
+        "verifiedSeconds": 781,
+        "positions": [
+          "Air",
+          "Tech",
+          "Geo",
+          "Pond",
+          "Sea geo",
+          "Sea beach",
+          "Front1",
+          "Front2"
+        ],
+        "verifiedSecondsPerCurve": 781
+      }
+    ]
+  }
+}

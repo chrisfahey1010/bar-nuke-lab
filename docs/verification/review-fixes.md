@@ -1,0 +1,9 @@
+# Independent review and regression fixes
+
+A read-only independent reviewer inspected the full plan and implementation. No blocking issue was found in ongoing-game denominators, unfiltered coverage providers, unknown-team isolation, once-per-game metadata, or opening/legacy-count separation. Three implementation edge cases were reproduced and reported:
+
+1. A superseded asynchronous Plotly render could purge the newer plot. Fixed by serializing Plotly writes per node and reserving purge for lifetime-aware disposal after pending work. `tests/components/chartRace.test.ts` exercises the actual React component with deferred Plotly promises; it failed on concurrent writes before the fix and now passes.
+2. An older file read could commit after a newer file selection. Fixed by reserving the dataset epoch before asynchronous file reads, using the same arbitration as refresh/import, and retaining last-good data on read errors. `tests/components/importRace.test.ts` exercises the actual file-input handler/store and failed B→A ordering before the fix. Store tests cover refresh supersession during a file read and read-error retention.
+3. Later-row extra cells and colliding `derived_*` source headers could be lost/overwritten on export. Fixed by a complete CSV field union, raw/derived JSON namespace separation, collision-safe generated CSV names, and extra-cell-preserving filtered JSON roundtrips. Each regression in `tests/data/export.test.ts` was observed failing before its implementation. A related parser regression protects literal `_extra_1` headers from extra-cell naming collisions.
+
+The parent applied these fixes and reran unit, TypeScript, production build and development/production-preview browser suites. This document does not claim the reviewer independently approved the final fixes; real final check outputs are stored separately in this directory.

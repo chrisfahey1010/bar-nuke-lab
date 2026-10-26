@@ -1,0 +1,30 @@
+{
+  "rowCount": 67,
+  "gameCounts": {
+    "1": 16,
+    "2": 9,
+    "3": 16,
+    "4": 2,
+    "5": 7,
+    "6": 1,
+    "7": 16
+  },
+  "populatedAnTimes": 30,
+  "validAnTimes": 29,
+  "invalidAnTimes": [
+    {
+      "row": 14,
+      "token": "?"
+    }
+  ],
+  "durationTokens": [
+    "29:03:00"
+  ],
+  "unknownTeams": 5,
+  "acquiredAt": "2026-09-30T09:05:23Z",
+  "sourceUrl": "https://docs.google.com/spreadsheets/d/1KOvDzr5li30oBIp_yWNXyauAgZ9Tav4N7tJchd4CK_c/export?format=csv&gid=0",
+  "method": "Public read-only CSV GET; no OAuth",
+  "contentType": "text/csv; charset=utf-8",
+  "corsAllowOrigin": "*",
+  "baselineNote": "30 populated AN tokens, 29 valid elapsed times and one invalid ?. Game 7 now has literal 29:03:00 endpoints."
+}

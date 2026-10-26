@@ -1,0 +1,31 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 1080
+  },
+  "analysis": {
+    "x": 12,
+    "y": -1273,
+    "width": 366,
+    "height": 2965.765625
+  },
+  "records": {
+    "x": 12,
+    "y": -654.921875,
+    "width": 366,
+    "height": 2347.6875
+  },
+  "table": {
+    "x": 25,
+    "y": -579.921875,
+    "width": 340,
+    "height": 868
+  },
+  "evidence": {
+    "x": 25,
+    "y": 339.078125,
+    "width": 340,
+    "height": 1340.6875
+  },
+  "documentWidth": 390
+}

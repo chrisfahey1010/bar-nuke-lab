@@ -1,0 +1,137 @@
+{
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "documentWidth": 1920,
+  "documentHeight": 2725,
+  "chart": {
+    "x": 28,
+    "y": 487.125,
+    "width": 1864,
+    "height": 399.09375,
+    "top": 487.125,
+    "right": 1892,
+    "bottom": 886.21875,
+    "left": 28
+  },
+  "controls": [
+    {
+      "name": "Role",
+      "bounds": {
+        "x": 41,
+        "y": 198,
+        "width": 226.71875,
+        "height": 31,
+        "top": 198,
+        "right": 267.71875,
+        "bottom": 229,
+        "left": 41
+      }
+    },
+    {
+      "name": "OS minimum",
+      "bounds": {
+        "x": 277.71875,
+        "y": 198,
+        "width": 226.734375,
+        "height": 31,
+        "top": 198,
+        "right": 504.453125,
+        "bottom": 229,
+        "left": 277.71875
+      }
+    },
+    {
+      "name": "OS maximum",
+      "bounds": {
+        "x": 514.453125,
+        "y": 198,
+        "width": 226.71875,
+        "height": 31,
+        "top": 198,
+        "right": 741.171875,
+        "bottom": 229,
+        "left": 514.453125
+      }
+    },
+    {
+      "name": "Include Unranked",
+      "bounds": {
+        "x": 755.171875,
+        "y": 197.5,
+        "width": 13,
+        "height": 13,
+        "top": 197.5,
+        "right": 768.171875,
+        "bottom": 210.5,
+        "left": 755.171875
+      }
+    },
+    {
+      "name": "Front situation",
+      "bounds": {
+        "x": 878.421875,
+        "y": 198,
+        "width": 226.734375,
+        "height": 31,
+        "top": 198,
+        "right": 1105.15625,
+        "bottom": 229,
+        "left": 878.421875
+      }
+    },
+    {
+      "name": "AN type",
+      "bounds": {
+        "x": 1115.15625,
+        "y": 198,
+        "width": 226.71875,
+        "height": 31,
+        "top": 198,
+        "right": 1341.875,
+        "bottom": 229,
+        "left": 1115.15625
+      }
+    },
+    {
+      "name": "Game",
+      "bounds": {
+        "x": 1351.875,
+        "y": 198,
+        "width": 226.734375,
+        "height": 31,
+        "top": 198,
+        "right": 1578.609375,
+        "bottom": 229,
+        "left": 1351.875
+      }
+    },
+    {
+      "name": "Roster",
+      "bounds": {
+        "x": 1588.609375,
+        "y": 198,
+        "width": 226.71875,
+        "height": 31,
+        "top": 198,
+        "right": 1815.328125,
+        "bottom": 229,
+        "left": 1588.609375
+      }
+    },
+    {
+      "name": "Timing basis",
+      "bounds": {
+        "x": 1143.765625,
+        "y": 298,
+        "width": 158,
+        "height": 31,
+        "top": 298,
+        "right": 1301.765625,
+        "bottom": 329,
+        "left": 1143.765625
+      }
+    }
+  ]
+}

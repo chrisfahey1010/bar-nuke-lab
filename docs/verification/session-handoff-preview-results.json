@@ -1,0 +1,997 @@
+{
+  "config": {
+    "argv": [
+      "/home/chris/.hermes/node/bin/node",
+      "/home/chris/dev/localprojs/bar-nuke-lab/node_modules/.bin/playwright",
+      "test",
+      "--config",
+      "playwright.preview.config.ts",
+      "--reporter=list,json"
+    ],
+    "configFile": "/home/chris/dev/localprojs/bar-nuke-lab/playwright.preview.config.ts",
+    "rootDir": "/home/chris/dev/localprojs/bar-nuke-lab/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/chris/dev/localprojs/bar-nuke-lab/test-results-preview",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/home/chris/dev/localprojs/bar-nuke-lab/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 2,
+    "webServer": {
+      "command": "npm run build && npm run preview",
+      "url": "http://127.0.0.1:4173",
+      "reuseExistingServer": true,
+      "timeout": 60000
+    }
+  },
+  "suites": [
+    {
+      "title": "accessibility.spec.ts",
+      "file": "accessibility.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "accessible Timing Window view and methodology dialog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1509,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:19.827Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-ceee18f4249ed18d1e8c",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "accessible OS Relationship view and methodology dialog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1286,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:21.392Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-613dbd4322624db37b91",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "accessible Match Timeline view and methodology dialog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1227,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:22.685Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-089632b294b9d65c141f",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "accessible Data Explorer view and methodology dialog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1127,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:23.920Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-28df6514cdbfd559f6ef",
+          "file": "accessibility.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "keyboard tabs, skip link, record focus and linked selection work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 475,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:25.054Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ddd864604af8a6a0198f-8cc3db09483762341e85",
+          "file": "accessibility.spec.ts",
+          "line": 26,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "chart-linking.spec.ts",
+      "file": "chart-linking.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "actual Plotly point click and box brush link record evidence and cohort counts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 903,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:19.812Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e5f0fb7fa86aa37e3b0e-58b386fd20e03e7cf1f6",
+          "file": "chart-linking.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "unconfirmed long endpoints still expose review and do not inherit the Game 7 correction",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 322,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:20.771Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e5f0fb7fa86aa37e3b0e-32bc075e1aff259a98b7",
+          "file": "chart-linking.spec.ts",
+          "line": 32,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "diagnostic.spec.ts",
+      "file": "diagnostic.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "modular Plotly actually renders both timing and OS charts without browser errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 277,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:21.103Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "92257fb6bc5544758cc3-3e1f998603dd35ce790e",
+          "file": "diagnostic.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "duration-assumptions.spec.ts",
+      "file": "duration-assumptions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "duration assumptions are visible and used in Tech coverage without changing raw evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 502,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:21.388Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c452b873c62e1c2d2d7b-379e4ede76f92aab4a4b",
+          "file": "duration-assumptions.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "game-clock.spec.ts",
+      "file": "game-clock.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "game clock spans 10:00–25:00 with one-second steps at width 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 464,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:21.899Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dad4674b593c14a4f5c4-5cc253152ce20162936a",
+          "file": "game-clock.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "game clock spans 10:00–25:00 with one-second steps at width 390",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 460,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:22.369Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dad4674b593c14a4f5c4-9d56cf0fa4b7e1eefcdc",
+          "file": "game-clock.spec.ts",
+          "line": 5,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "linked-filters.spec.ts",
+      "file": "linked-filters.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "shared filters link timing, OS view, source table and record evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 474,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:22.837Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2b323ea62da21d0e321-6ed3e5e02e9bd5433710",
+          "file": "linked-filters.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "live-source.spec.ts",
+      "file": "live-source.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "actual browser fetches fresh Google CSV directly without credentials or a dev proxy",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 947,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "LIVE BROWSER {\"url\":\"http://127.0.0.1:4173/\",\"responseStatus\":200,\"sourceResponseUrl\":\"https://doc-0s-2k-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/ngjr3pp6n45gtfl835d6res50c/1790828720000/112118880661531280786/*/1KOvDzr5li30oBIp_yWNXyauAgZ9Tav4N7tJchd4CK_c?format=csv&gid=0\",\"retrievedAt\":\"2026-10-01T04:25:24.232Z\",\"rows\":211,\"games\":16,\"validAnTimes\":86,\"durations\":[{\"game\":\"1\",\"duration\":1800,\"raw\":[],\"durationSource\":\"placeholder\",\"recordedDuration\":null,\"durationNote\":\"30:00 placeholder for unknown duration; not a recorded endpoint.\"},{\"game\":\"2\",\"duration\":1800,\"raw\":[],\"durationSource\":\"placeholder\",\"recordedDuration\":null,\"durationNote\":\"30:00 placeholder for unknown duration; not a recorded endpoint.\"},{\"game\":\"3\",\"duration\":1800,\"raw\":[],\"durationSource\":\"placeholder\",\"recordedDuration\":null,\"durationNote\":\"30:00 placeholder for unknown duration; not a recorded endpoint.\"},{\"game\":\"4\",\"duration\":1800,\"raw\":[],\"durationSource\":\"placeholder\",\"recordedDuration\":null,\"durationNote\":\"30:00 placeholder for unknown duration; not a recorded endpoint.\"},{\"game\":\"5\",\"duration\":1800,\"raw\":[],\"durationSource\":\"placeholder\",\"recordedDuration\":null,\"durationNote\":\"30:00 placeholder for unknown duration; not a recorded endpoint.\"},{\"game\":\"6\",\"duration\":1800,\"raw\":[],\"durationSource\":\"placeholder\",\"recordedDuration\":null,\"durationNote\":\"30:00 placeholder for unknown duration; not a recorded endpoint.\"},{\"game\":\"7\",\"duration\":1743,\"raw\":[\"0:29:03\"],\"durationSource\":\"recorded\",\"recordedDuration\":1743,\"durationNote\":\"\"},{\"game\":\"8\",\"duration\":1680,\"raw\":[\"0:28:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1680,\"durationNote\":\"\"},{\"game\":\"9\",\"duration\":940,\"raw\":[\"0:15:40\"],\"durationSource\":\"recorded\",\"recordedDuration\":940,\"durationNote\":\"\"},{\"game\":\"10\",\"duration\":2880,\"raw\":[\"0:48:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":2880,\"durationNote\":\"\"},{\"game\":\"11\",\"duration\":1030,\"raw\":[\"0:17:10\"],\"durationSource\":\"recorded\",\"recordedDuration\":1030,\"durationNote\":\"\"},{\"game\":\"12\",\"duration\":1388,\"raw\":[\"0:23:08\"],\"durationSource\":\"recorded\",\"recordedDuration\":1388,\"durationNote\":\"\"},{\"game\":\"13\",\"duration\":3540,\"raw\":[\"0:59:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":3540,\"durationNote\":\"\"},{\"game\":\"14\",\"duration\":1800,\"raw\":[\"0:30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"15\",\"duration\":1800,\"raw\":[\"0:30:00\"],\"durationSource\":\"recorded\",\"recordedDuration\":1800,\"durationNote\":\"\"},{\"game\":\"16\",\"duration\":1800,\"raw\":[],\"durationSource\":\"placeholder\",\"recordedDuration\":null,\"durationNote\":\"30:00 placeholder for unknown duration; not a recorded endpoint.\"}],\"proxy\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:23.320Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "df311949eb387111a1af-8a9b8a9904c641857eb9",
+          "file": "live-source.spec.ts",
+          "line": 6,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "opening-strike.spec.ts",
+      "file": "opening-strike.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "timeline groups explicit teams and shows opening double-salvo evidence, not later campaign analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 453,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:24.273Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8e8cf3fb2803eed5e792-22b585b824bda6a63670",
+          "file": "opening-strike.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "recovery-export.spec.ts",
+      "file": "recovery-export.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "once-per-game metadata import is explicit and does not write Google",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 310,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:24.736Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fa69839f43a048d717cf-e3b7490f458c438c743e",
+          "file": "recovery-export.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "failed refresh and HTML preserve cached rows; later valid additions appear and are announced",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 478,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:25.052Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fa69839f43a048d717cf-74dfe314629c7e3918c0",
+          "file": "recovery-export.spec.ts",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "filtered CSV and JSON downloads retain raw values and model/provider provenance",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 400,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:25.538Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fa69839f43a048d717cf-2a9a4bd0c903e0f8b44e",
+          "file": "recovery-export.spec.ts",
+          "line": 70,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "responsive.spec.ts",
+      "file": "responsive.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "responsive viewport 1440x900 and nondefault placeholder-duration state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 506,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:25.539Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0223b006feb3d306446-67405ddd737f236548d1",
+          "file": "responsive.spec.ts",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "responsive viewport 1920x1080 and nondefault placeholder-duration state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 535,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:26.052Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0223b006feb3d306446-0f1ac013ec8f38e0fb66",
+          "file": "responsive.spec.ts",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "responsive viewport 390x844 and nondefault placeholder-duration state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 456,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:26.593Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0223b006feb3d306446-86802daeb31607bdfab4",
+          "file": "responsive.spec.ts",
+          "line": 9,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "time-axis.spec.ts",
+      "file": "time-axis.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "OS charts put 10:00–25:00 readiness on X and OS on Y in both sizes and timing modes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 488,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:25.948Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "60ace0c1770a1b15e5d4-dd3a5059ca74b4e7413e",
+          "file": "time-axis.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "both time endpoints render visibly inside compact, full and mobile chart bounds",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 804,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:26.443Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "60ace0c1770a1b15e5d4-f0d085f0f6b2c4d3902f",
+          "file": "time-axis.spec.ts",
+          "line": 51,
+          "column": 1
+        },
+        {
+          "title": "Timing Window stays at 10:00–25:00 while retaining early and late observations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 390,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:27.254Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "60ace0c1770a1b15e5d4-f4224102c39aa1aebb72",
+          "file": "time-axis.spec.ts",
+          "line": 82,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "unknown-completion.spec.ts",
+      "file": "unknown-completion.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "type without completion is unknown in the selected evidence, not a confirmed nonbuilder",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 296,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-01T04:25:27.082Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "31c2eb4ac56cc317189b-cdb2aba2e88975975231",
+          "file": "unknown-completion.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-01T04:25:16.611Z",
+    "duration": 11080.333999999999,
+    "expected": 24,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

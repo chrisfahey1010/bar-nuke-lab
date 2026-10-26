@@ -1,0 +1,34 @@
+
+> bar-nuke-lab@1.0.0 test:e2e
+> playwright test --reporter=list,json
+
+
+Running 24 tests using 2 workers
+
+  ✓   1 tests/e2e/chart-linking.spec.ts:5:1 › actual Plotly point click and box brush link record evidence and cohort counts (1.4s)
+  ✓   2 tests/e2e/accessibility.spec.ts:5:3 › accessible Timing Window view and methodology dialog (2.0s)
+  ✓   3 tests/e2e/chart-linking.spec.ts:32:1 › unconfirmed long endpoints still expose review and do not inherit the Game 7 correction (668ms)
+  ✓   5 tests/e2e/diagnostic.spec.ts:3:1 › modular Plotly actually renders both timing and OS charts without browser errors (793ms)
+  ✓   6 tests/e2e/duration-assumptions.spec.ts:4:1 › duration assumptions are visible and used in Tech coverage without changing raw evidence (865ms)
+  ✓   4 tests/e2e/accessibility.spec.ts:5:3 › accessible OS Relationship view and methodology dialog (1.9s)
+  ✓   7 tests/e2e/game-clock.spec.ts:5:3 › game clock spans 10:00–25:00 with one-second steps at width 1440 (896ms)
+  ✓   9 tests/e2e/game-clock.spec.ts:5:3 › game clock spans 10:00–25:00 with one-second steps at width 390 (811ms)
+  ✓   8 tests/e2e/accessibility.spec.ts:5:3 › accessible Match Timeline view and methodology dialog (1.7s)
+  ✓  10 tests/e2e/linked-filters.spec.ts:3:1 › shared filters link timing, OS view, source table and record evidence (909ms)
+  ✓  11 tests/e2e/accessibility.spec.ts:5:3 › accessible Data Explorer view and methodology dialog (1.5s)
+LIVE BROWSER {"url":"http://127.0.0.1:5173/","responseStatus":200,"sourceResponseUrl":"https://doc-0s-2k-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/h5q39af0bae2jj7gs8o43fm5ak/1790828705000/112118880661531280786/*/1KOvDzr5li30oBIp_yWNXyauAgZ9Tav4N7tJchd4CK_c?format=csv&gid=0","retrievedAt":"2026-10-01T04:25:09.549Z","rows":211,"games":16,"validAnTimes":86,"durations":[{"game":"1","duration":1800,"raw":[],"durationSource":"placeholder","recordedDuration":null,"durationNote":"30:00 placeholder for unknown duration; not a recorded endpoint."},{"game":"2","duration":1800,"raw":[],"durationSource":"placeholder","recordedDuration":null,"durationNote":"30:00 placeholder for unknown duration; not a recorded endpoint."},{"game":"3","duration":1800,"raw":[],"durationSource":"placeholder","recordedDuration":null,"durationNote":"30:00 placeholder for unknown duration; not a recorded endpoint."},{"game":"4","duration":1800,"raw":[],"durationSource":"placeholder","recordedDuration":null,"durationNote":"30:00 placeholder for unknown duration; not a recorded endpoint."},{"game":"5","duration":1800,"raw":[],"durationSource":"placeholder","recordedDuration":null,"durationNote":"30:00 placeholder for unknown duration; not a recorded endpoint."},{"game":"6","duration":1800,"raw":[],"durationSource":"placeholder","recordedDuration":null,"durationNote":"30:00 placeholder for unknown duration; not a recorded endpoint."},{"game":"7","duration":1743,"raw":["0:29:03"],"durationSource":"recorded","recordedDuration":1743,"durationNote":""},{"game":"8","duration":1680,"raw":["0:28:00"],"durationSource":"recorded","recordedDuration":1680,"durationNote":""},{"game":"9","duration":940,"raw":["0:15:40"],"durationSource":"recorded","recordedDuration":940,"durationNote":""},{"game":"10","duration":2880,"raw":["0:48:00"],"durationSource":"recorded","recordedDuration":2880,"durationNote":""},{"game":"11","duration":1030,"raw":["0:17:10"],"durationSource":"recorded","recordedDuration":1030,"durationNote":""},{"game":"12","duration":1388,"raw":["0:23:08"],"durationSource":"recorded","recordedDuration":1388,"durationNote":""},{"game":"13","duration":3540,"raw":["0:59:00"],"durationSource":"recorded","recordedDuration":3540,"durationNote":""},{"game":"14","duration":1800,"raw":["0:30:00"],"durationSource":"recorded","recordedDuration":1800,"durationNote":""},{"game":"15","duration":1800,"raw":["0:30:00"],"durationSource":"recorded","recordedDuration":1800,"durationNote":""},{"game":"16","duration":1800,"raw":[],"durationSource":"placeholder","recordedDuration":null,"durationNote":"30:00 placeholder for unknown duration; not a recorded endpoint."}],"proxy":false}
+  ✓  12 tests/e2e/live-source.spec.ts:6:1 › actual browser fetches fresh Google CSV directly without credentials or a dev proxy (1.2s)
+  ✓  13 tests/e2e/accessibility.spec.ts:26:1 › keyboard tabs, skip link, record focus and linked selection work (992ms)
+  ✓  14 tests/e2e/opening-strike.spec.ts:3:1 › timeline groups explicit teams and shows opening double-salvo evidence, not later campaign analytics (881ms)
+  ✓  15 tests/e2e/recovery-export.spec.ts:6:1 › once-per-game metadata import is explicit and does not write Google (725ms)
+  ✓  16 tests/e2e/responsive.spec.ts:9:3 › responsive viewport 1440x900 and nondefault placeholder-duration state (1.0s)
+  ✓  17 tests/e2e/recovery-export.spec.ts:35:1 › failed refresh and HTML preserve cached rows; later valid additions appear and are announced (809ms)
+  ✓  19 tests/e2e/recovery-export.spec.ts:70:1 › filtered CSV and JSON downloads retain raw values and model/provider provenance (762ms)
+  ✓  18 tests/e2e/responsive.spec.ts:9:3 › responsive viewport 1920x1080 and nondefault placeholder-duration state (1.1s)
+  ✓  21 tests/e2e/responsive.spec.ts:9:3 › responsive viewport 390x844 and nondefault placeholder-duration state (996ms)
+  ✓  20 tests/e2e/time-axis.spec.ts:6:1 › OS charts put 10:00–25:00 readiness on X and OS on Y in both sizes and timing modes (1.0s)
+  ✓  22 tests/e2e/unknown-completion.spec.ts:4:1 › type without completion is unknown in the selected evidence, not a confirmed nonbuilder (676ms)
+  ✓  23 tests/e2e/time-axis.spec.ts:51:1 › both time endpoints render visibly inside compact, full and mobile chart bounds (1.7s)
+  ✓  24 tests/e2e/time-axis.spec.ts:82:1 › Timing Window stays at 10:00–25:00 while retaining early and late observations (817ms)
+
+  24 passed (14.6s)

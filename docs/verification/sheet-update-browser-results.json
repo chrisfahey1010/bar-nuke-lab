@@ -1,0 +1,134 @@
+[
+  {
+    "url": "http://127.0.0.1:5173/",
+    "source": "unmocked anonymous Google CSV",
+    "rows": 147,
+    "types": [
+      {
+        "type": "Prevailer",
+        "records": 2,
+        "points": [
+          {
+            "ref": "Sheet1!A143:P143",
+            "minutes": 12.083333333333334,
+            "symbol": "cross"
+          },
+          {
+            "ref": "Sheet1!A75:P75",
+            "minutes": 23.5,
+            "symbol": "cross"
+          }
+        ]
+      },
+      {
+        "type": "Haven",
+        "records": 1,
+        "points": [
+          {
+            "ref": "Sheet1!A80:P80",
+            "minutes": 20.466666666666665,
+            "symbol": "cross"
+          }
+        ]
+      }
+    ],
+    "coverageChecks": [
+      {
+        "role": "Front2",
+        "team": "1",
+        "sourceRow": 135,
+        "coverage": "20:54",
+        "provider": "Sheet1!A134:P134"
+      },
+      {
+        "role": "Front2",
+        "team": "2",
+        "sourceRow": 142,
+        "coverage": "12:05",
+        "provider": "Sheet1!A143:P143"
+      },
+      {
+        "role": "Sea beach",
+        "team": "1",
+        "sourceRow": 140,
+        "coverage": "20:54",
+        "provider": "Sheet1!A134:P134"
+      },
+      {
+        "role": "Sea beach",
+        "team": "2",
+        "sourceRow": 145,
+        "coverage": "12:05",
+        "provider": "Sheet1!A143:P143"
+      }
+    ],
+    "problematicCompletionCorrectlyFlagged": true,
+    "pageErrors": []
+  },
+  {
+    "url": "http://127.0.0.1:4173/",
+    "source": "unmocked anonymous Google CSV",
+    "rows": 147,
+    "types": [
+      {
+        "type": "Prevailer",
+        "records": 2,
+        "points": [
+          {
+            "ref": "Sheet1!A143:P143",
+            "minutes": 12.083333333333334,
+            "symbol": "cross"
+          },
+          {
+            "ref": "Sheet1!A75:P75",
+            "minutes": 23.5,
+            "symbol": "cross"
+          }
+        ]
+      },
+      {
+        "type": "Haven",
+        "records": 1,
+        "points": [
+          {
+            "ref": "Sheet1!A80:P80",
+            "minutes": 20.466666666666665,
+            "symbol": "cross"
+          }
+        ]
+      }
+    ],
+    "coverageChecks": [
+      {
+        "role": "Front2",
+        "team": "1",
+        "sourceRow": 135,
+        "coverage": "20:54",
+        "provider": "Sheet1!A134:P134"
+      },
+      {
+        "role": "Front2",
+        "team": "2",
+        "sourceRow": 142,
+        "coverage": "12:05",
+        "provider": "Sheet1!A143:P143"
+      },
+      {
+        "role": "Sea beach",
+        "team": "1",
+        "sourceRow": 140,
+        "coverage": "20:54",
+        "provider": "Sheet1!A134:P134"
+      },
+      {
+        "role": "Sea beach",
+        "team": "2",
+        "sourceRow": 145,
+        "coverage": "12:05",
+        "provider": "Sheet1!A143:P143"
+      }
+    ],
+    "problematicCompletionCorrectlyFlagged": true,
+    "pageErrors": []
+  }
+]

@@ -1,0 +1,2322 @@
+{
+  "retrievedAt": "2026-10-01T04:07:40.588Z",
+  "sourceUrl": "https://docs.google.com/spreadsheets/d/1KOvDzr5li30oBIp_yWNXyauAgZ9Tav4N7tJchd4CK_c/export?format=csv&gid=0",
+  "finalResponseUrl": "https://doc-0s-2k-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/mn230ien838nhokjldq2rpqhvs/1790827655000/112118880661531280786/*/1KOvDzr5li30oBIp_yWNXyauAgZ9Tav4N7tJchd4CK_c?format=csv&gid=0",
+  "httpStatus": 200,
+  "headers": [
+    "Game ID",
+    "Team ID",
+    "OS",
+    "Position",
+    "AN built time",
+    "AN Type",
+    "Other positions covered",
+    "Front situation upon AN build",
+    "Nuke built",
+    "First Nuke ready",
+    "First Nuke launch",
+    "Num nukes launched",
+    "Positions targeted",
+    "Game duration",
+    "Replay name",
+    "Notes"
+  ],
+  "rows": 211,
+  "games": 16,
+  "usableRows": 206,
+  "missingOptional": [],
+  "roleCounts": {
+    "": 5,
+    "Air": 24,
+    "Front1": 26,
+    "Front2": 25,
+    "Geo": 27,
+    "Pond": 24,
+    "Sea beach": 24,
+    "Sea geo": 26,
+    "Tech": 30
+  },
+  "typeCounts": {
+    "": 131,
+    "Citadel": 51,
+    "Front2": 1,
+    "Haven": 3,
+    "Oasis": 11,
+    "Prevailer": 7,
+    "Umbrella": 7
+  },
+  "completionStatuses": {
+    "blank": 131,
+    "invalid": 1,
+    "valid": 79
+  },
+  "gamesMetadata": [
+    {
+      "id": "1",
+      "rows": 16,
+      "roster": "full",
+      "teams": {
+        "1": 8,
+        "2": 8,
+        "unknown": 0
+      },
+      "duration": 1800,
+      "durationSource": "placeholder",
+      "tokens": [],
+      "issues": []
+    },
+    {
+      "id": "2",
+      "rows": 9,
+      "roster": "partial",
+      "teams": {
+        "1": 4,
+        "2": 5,
+        "unknown": 0
+      },
+      "duration": 1800,
+      "durationSource": "placeholder",
+      "tokens": [],
+      "issues": [
+        {
+          "field": "Roster",
+          "message": "9 usable player rows; partial for the 16-slot scope"
+        },
+        {
+          "field": "Roster",
+          "message": "Repeated role Geo on Team 2; target identity may be ambiguous"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "rows": 16,
+      "roster": "full",
+      "teams": {
+        "1": 8,
+        "2": 8,
+        "unknown": 0
+      },
+      "duration": 1800,
+      "durationSource": "placeholder",
+      "tokens": [],
+      "issues": []
+    },
+    {
+      "id": "4",
+      "rows": 2,
+      "roster": "partial",
+      "teams": {
+        "1": 2,
+        "2": 0,
+        "unknown": 0
+      },
+      "duration": 1800,
+      "durationSource": "placeholder",
+      "tokens": [],
+      "issues": [
+        {
+          "field": "Roster",
+          "message": "2 usable player rows; partial for the 16-slot scope"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "rows": 7,
+      "roster": "partial",
+      "teams": {
+        "1": 1,
+        "2": 1,
+        "unknown": 5
+      },
+      "duration": 1800,
+      "durationSource": "placeholder",
+      "tokens": [],
+      "issues": [
+        {
+          "field": "Roster",
+          "message": "7 usable player rows; partial for the 16-slot scope"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "rows": 1,
+      "roster": "partial",
+      "teams": {
+        "1": 1,
+        "2": 0,
+        "unknown": 0
+      },
+      "duration": 1800,
+      "durationSource": "placeholder",
+      "tokens": [],
+      "issues": [
+        {
+          "field": "Roster",
+          "message": "1 usable player rows; partial for the 16-slot scope"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "rows": 16,
+      "roster": "full",
+      "teams": {
+        "1": 8,
+        "2": 8,
+        "unknown": 0
+      },
+      "duration": 1743,
+      "durationSource": "recorded",
+      "tokens": [
+        "0:29:03"
+      ],
+      "issues": []
+    },
+    {
+      "id": "8",
+      "rows": 16,
+      "roster": "full",
+      "teams": {
+        "1": 8,
+        "2": 8,
+        "unknown": 0
+      },
+      "duration": 1680,
+      "durationSource": "recorded",
+      "tokens": [
+        "0:28:00"
+      ],
+      "issues": []
+    },
+    {
+      "id": "9",
+      "rows": 16,
+      "roster": "full",
+      "teams": {
+        "1": 8,
+        "2": 8,
+        "unknown": 0
+      },
+      "duration": 940,
+      "durationSource": "recorded",
+      "tokens": [
+        "0:15:40"
+      ],
+      "issues": []
+    },
+    {
+      "id": "10",
+      "rows": 16,
+      "roster": "full",
+      "teams": {
+        "1": 8,
+        "2": 8,
+        "unknown": 0
+      },
+      "duration": 2880,
+      "durationSource": "recorded",
+      "tokens": [
+        "0:48:00"
+      ],
+      "issues": []
+    },
+    {
+      "id": "11",
+      "rows": 16,
+      "roster": "full",
+      "teams": {
+        "1": 8,
+        "2": 8,
+        "unknown": 0
+      },
+      "duration": 1030,
+      "durationSource": "recorded",
+      "tokens": [
+        "0:17:10"
+      ],
+      "issues": []
+    },
+    {
+      "id": "12",
+      "rows": 16,
+      "roster": "full",
+      "teams": {
+        "1": 8,
+        "2": 8,
+        "unknown": 0
+      },
+      "duration": 1388,
+      "durationSource": "recorded",
+      "tokens": [
+        "0:23:08"
+      ],
+      "issues": []
+    },
+    {
+      "id": "13",
+      "rows": 16,
+      "roster": "full",
+      "teams": {
+        "1": 8,
+        "2": 8,
+        "unknown": 0
+      },
+      "duration": 3540,
+      "durationSource": "recorded",
+      "tokens": [
+        "0:59:00"
+      ],
+      "issues": []
+    },
+    {
+      "id": "14",
+      "rows": 16,
+      "roster": "full",
+      "teams": {
+        "1": 8,
+        "2": 8,
+        "unknown": 0
+      },
+      "duration": 1800,
+      "durationSource": "recorded",
+      "tokens": [
+        "0:30:00"
+      ],
+      "issues": []
+    },
+    {
+      "id": "15",
+      "rows": 16,
+      "roster": "full",
+      "teams": {
+        "1": 8,
+        "2": 8,
+        "unknown": 0
+      },
+      "duration": 1800,
+      "durationSource": "recorded",
+      "tokens": [
+        "0:30:00"
+      ],
+      "issues": []
+    },
+    {
+      "id": "16",
+      "rows": 16,
+      "roster": "partial",
+      "teams": {
+        "1": 8,
+        "2": 3,
+        "unknown": 0
+      },
+      "duration": 1800,
+      "durationSource": "placeholder",
+      "tokens": [],
+      "issues": [
+        {
+          "field": "Roster",
+          "message": "11 usable player rows; partial for the 16-slot scope"
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "type": "Citadel",
+      "count": 51,
+      "recognized": true,
+      "timed": 49,
+      "rows": [
+        {
+          "ref": "Sheet1!A14:P14",
+          "game": "1",
+          "team": "2",
+          "role": "Geo",
+          "os": 23,
+          "completion": "?",
+          "modeled": "—",
+          "inGame": "—",
+          "interpretable": false
+        },
+        {
+          "ref": "Sheet1!A17:P17",
+          "game": "1",
+          "team": "2",
+          "role": "Tech",
+          "os": 10,
+          "completion": "14:30",
+          "modeled": "16:00",
+          "inGame": "16:00",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A22:P22",
+          "game": "2",
+          "team": "2",
+          "role": "Geo",
+          "os": 25,
+          "completion": "15:40",
+          "modeled": "17:10",
+          "inGame": "17:10",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A23:P23",
+          "game": "2",
+          "team": "2",
+          "role": "Tech",
+          "os": 20,
+          "completion": "15:31",
+          "modeled": "17:01",
+          "inGame": "17:01",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A24:P24",
+          "game": "2",
+          "team": "2",
+          "role": "Geo",
+          "os": 15,
+          "completion": "22:00",
+          "modeled": "23:30",
+          "inGame": "23:30",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A26:P26",
+          "game": "2",
+          "team": "2",
+          "role": "Front1",
+          "os": 8,
+          "completion": "18:24",
+          "modeled": "19:54",
+          "inGame": "19:54",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A28:P28",
+          "game": "3",
+          "team": "1",
+          "role": "Air",
+          "os": 21,
+          "completion": "20:10",
+          "modeled": "21:40",
+          "inGame": "21:40",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A32:P32",
+          "game": "3",
+          "team": "1",
+          "role": "Tech",
+          "os": 14,
+          "completion": "20:00",
+          "modeled": "21:30",
+          "inGame": "21:30",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A44:P44",
+          "game": "4",
+          "team": "1",
+          "role": "Geo",
+          "os": 21,
+          "completion": "12:00",
+          "modeled": "13:30",
+          "inGame": "13:30",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A45:P45",
+          "game": "5",
+          "team": "1",
+          "role": "Tech",
+          "os": 22,
+          "completion": "13:51",
+          "modeled": "15:21",
+          "inGame": "15:21",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A46:P46",
+          "game": "5",
+          "team": null,
+          "role": "Geo",
+          "os": 12,
+          "completion": "15:54",
+          "modeled": "17:24",
+          "inGame": "17:24",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A47:P47",
+          "game": "5",
+          "team": "2",
+          "role": "Tech",
+          "os": 20,
+          "completion": "15:30",
+          "modeled": "17:00",
+          "inGame": "17:00",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A48:P48",
+          "game": "5",
+          "team": null,
+          "role": "Sea geo",
+          "os": 21,
+          "completion": "17:45",
+          "modeled": "19:15",
+          "inGame": "19:15",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A49:P49",
+          "game": "5",
+          "team": null,
+          "role": "Front1",
+          "os": 24,
+          "completion": "18:40",
+          "modeled": "20:10",
+          "inGame": "20:10",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A50:P50",
+          "game": "5",
+          "team": null,
+          "role": "Sea geo",
+          "os": 22,
+          "completion": "23:00",
+          "modeled": "24:30",
+          "inGame": "24:30",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A51:P51",
+          "game": "5",
+          "team": null,
+          "role": "Pond",
+          "os": 20,
+          "completion": "21:30",
+          "modeled": "23:00",
+          "inGame": "23:00",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A53:P53",
+          "game": "7",
+          "team": "1",
+          "role": "Geo",
+          "os": 54,
+          "completion": "15:30",
+          "modeled": "17:00",
+          "inGame": "17:00",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A54:P54",
+          "game": "7",
+          "team": "1",
+          "role": "Sea beach",
+          "os": 46,
+          "completion": "18:25",
+          "modeled": "19:55",
+          "inGame": "19:55",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A55:P55",
+          "game": "7",
+          "team": "1",
+          "role": "Tech",
+          "os": 45,
+          "completion": "13:38",
+          "modeled": "15:08",
+          "inGame": "15:08",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A61:P61",
+          "game": "7",
+          "team": "2",
+          "role": "Front1",
+          "os": 61,
+          "completion": "17:15",
+          "modeled": "18:45",
+          "inGame": "18:45",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A64:P64",
+          "game": "7",
+          "team": "2",
+          "role": "Pond",
+          "os": 38,
+          "completion": "17:00",
+          "modeled": "18:30",
+          "inGame": "18:30",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A65:P65",
+          "game": "7",
+          "team": "2",
+          "role": "Tech",
+          "os": 35,
+          "completion": "18:30",
+          "modeled": "20:00",
+          "inGame": "20:00",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A71:P71",
+          "game": "8",
+          "team": "1",
+          "role": "Tech",
+          "os": 21,
+          "completion": "14:15",
+          "modeled": "15:45",
+          "inGame": "15:45",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A77:P77",
+          "game": "8",
+          "team": "2",
+          "role": "Front1",
+          "os": 28,
+          "completion": "15:05",
+          "modeled": "16:35",
+          "inGame": "16:35",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A79:P79",
+          "game": "8",
+          "team": "2",
+          "role": "Tech",
+          "os": 19,
+          "completion": "15:55",
+          "modeled": "17:25",
+          "inGame": "17:25",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A83:P83",
+          "game": "8",
+          "team": "2",
+          "role": "Geo",
+          "os": 14,
+          "completion": "14:00",
+          "modeled": "15:30",
+          "inGame": "15:30",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A103:P103",
+          "game": "10",
+          "team": "1",
+          "role": "Geo",
+          "os": 17,
+          "completion": "17:48",
+          "modeled": "19:18",
+          "inGame": "19:18",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A105:P105",
+          "game": "10",
+          "team": "1",
+          "role": "Tech",
+          "os": 16,
+          "completion": "21:42",
+          "modeled": "23:12",
+          "inGame": "23:12",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A106:P106",
+          "game": "10",
+          "team": "1",
+          "role": "Pond",
+          "os": 14,
+          "completion": "14:00",
+          "modeled": "15:30",
+          "inGame": "15:30",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A107:P107",
+          "game": "10",
+          "team": "1",
+          "role": "Front2",
+          "os": 13,
+          "completion": "24:50:00",
+          "modeled": "24:51:30",
+          "inGame": "—",
+          "interpretable": false
+        },
+        {
+          "ref": "Sheet1!A112:P112",
+          "game": "10",
+          "team": "2",
+          "role": "Air",
+          "os": 16,
+          "completion": "14:46",
+          "modeled": "16:16",
+          "inGame": "16:16",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A113:P113",
+          "game": "10",
+          "team": "2",
+          "role": "Geo",
+          "os": 15,
+          "completion": "19:45",
+          "modeled": "21:15",
+          "inGame": "21:15",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A117:P117",
+          "game": "11",
+          "team": "1",
+          "role": "Tech",
+          "os": 21,
+          "completion": "13:53",
+          "modeled": "15:23",
+          "inGame": "15:23",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A119:P119",
+          "game": "11",
+          "team": "1",
+          "role": "Pond",
+          "os": 16,
+          "completion": "15:18",
+          "modeled": "16:48",
+          "inGame": "16:48",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A123:P123",
+          "game": "11",
+          "team": "1",
+          "role": "Front2",
+          "os": 10,
+          "completion": "14:33",
+          "modeled": "16:03",
+          "inGame": "16:03",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A134:P134",
+          "game": "12",
+          "team": "1",
+          "role": "Geo",
+          "os": 21,
+          "completion": "19:24",
+          "modeled": "20:54",
+          "inGame": "20:54",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A137:P137",
+          "game": "12",
+          "team": "1",
+          "role": "Air",
+          "os": 18,
+          "completion": "12:12",
+          "modeled": "13:42",
+          "inGame": "13:42",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A144:P144",
+          "game": "12",
+          "team": "2",
+          "role": "Tech",
+          "os": 20,
+          "completion": "13:05",
+          "modeled": "14:35",
+          "inGame": "14:35",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A146:P146",
+          "game": "12",
+          "team": "2",
+          "role": "Sea geo",
+          "os": 15,
+          "completion": "21:29",
+          "modeled": "22:59",
+          "inGame": "22:59",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A148:P148",
+          "game": "12",
+          "team": "2",
+          "role": "Pond",
+          "os": 12,
+          "completion": "13:42",
+          "modeled": "15:12",
+          "inGame": "15:12",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A154:P154",
+          "game": "13",
+          "team": "1",
+          "role": "Sea beach",
+          "os": 15,
+          "completion": "20:44",
+          "modeled": "22:14",
+          "inGame": "22:14",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A157:P157",
+          "game": "13",
+          "team": "2",
+          "role": "Geo",
+          "os": 26,
+          "completion": "13:08",
+          "modeled": "14:38",
+          "inGame": "14:38",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A160:P160",
+          "game": "13",
+          "team": "2",
+          "role": "Tech",
+          "os": 19,
+          "completion": "16:41",
+          "modeled": "18:11",
+          "inGame": "18:11",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A161:P161",
+          "game": "13",
+          "team": "2",
+          "role": "Pond",
+          "os": 19,
+          "completion": "18:31",
+          "modeled": "20:01",
+          "inGame": "20:01",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A162:P162",
+          "game": "13",
+          "team": "2",
+          "role": "Air",
+          "os": 18,
+          "completion": "16:47",
+          "modeled": "18:17",
+          "inGame": "18:17",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A163:P163",
+          "game": "13",
+          "team": "2",
+          "role": "Front2",
+          "os": 15,
+          "completion": "23:53",
+          "modeled": "25:23",
+          "inGame": "25:23",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A175:P175",
+          "game": "14",
+          "team": "2",
+          "role": "Front2",
+          "os": 15,
+          "completion": "18:28",
+          "modeled": "19:58",
+          "inGame": "19:58",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A176:P176",
+          "game": "14",
+          "team": "2",
+          "role": "Tech",
+          "os": 15,
+          "completion": "12:23",
+          "modeled": "13:53",
+          "inGame": "13:53",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A178:P178",
+          "game": "14",
+          "team": "2",
+          "role": "Front1",
+          "os": -1,
+          "completion": "15:18",
+          "modeled": "16:48",
+          "inGame": "16:48",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A181:P181",
+          "game": "15",
+          "team": "1",
+          "role": "Tech",
+          "os": 23,
+          "completion": "13:52",
+          "modeled": "15:22",
+          "inGame": "15:22",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A184:P184",
+          "game": "15",
+          "team": "1",
+          "role": "Geo",
+          "os": 18,
+          "completion": "14:27",
+          "modeled": "15:57",
+          "inGame": "15:57",
+          "interpretable": true
+        }
+      ]
+    },
+    {
+      "type": "Front2",
+      "count": 1,
+      "recognized": false,
+      "timed": 1,
+      "rows": [
+        {
+          "ref": "Sheet1!A182:P182",
+          "game": "15",
+          "team": "1",
+          "role": "Front1",
+          "os": 22,
+          "completion": "14:40",
+          "modeled": "16:10",
+          "inGame": "16:10",
+          "interpretable": true
+        }
+      ]
+    },
+    {
+      "type": "Haven",
+      "count": 3,
+      "recognized": false,
+      "timed": 3,
+      "rows": [
+        {
+          "ref": "Sheet1!A80:P80",
+          "game": "8",
+          "team": "2",
+          "role": "Sea beach",
+          "os": 19,
+          "completion": "18:58",
+          "modeled": "20:28",
+          "inGame": "20:28",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A179:P179",
+          "game": "14",
+          "team": "2",
+          "role": "Sea beach",
+          "os": 13,
+          "completion": "15:08",
+          "modeled": "16:38",
+          "inGame": "16:38",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A185:P185",
+          "game": "15",
+          "team": "1",
+          "role": "Sea beach",
+          "os": 16,
+          "completion": "15:00",
+          "modeled": "16:30",
+          "inGame": "16:30",
+          "interpretable": true
+        }
+      ]
+    },
+    {
+      "type": "Oasis",
+      "count": 11,
+      "recognized": true,
+      "timed": 10,
+      "rows": [
+        {
+          "ref": "Sheet1!A4:P4",
+          "game": "1",
+          "team": "1",
+          "role": "Sea geo",
+          "os": 29,
+          "completion": "17:04",
+          "modeled": "18:34",
+          "inGame": "18:34",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A11:P11",
+          "game": "1",
+          "team": "2",
+          "role": "Sea geo",
+          "os": 33,
+          "completion": "13:20",
+          "modeled": "14:50",
+          "inGame": "14:50",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A19:P19",
+          "game": "2",
+          "team": "1",
+          "role": "Sea geo",
+          "os": 22,
+          "completion": "14:32",
+          "modeled": "16:02",
+          "inGame": "16:02",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A78:P78",
+          "game": "8",
+          "team": "2",
+          "role": "Sea geo",
+          "os": 26,
+          "completion": "19:09",
+          "modeled": "20:39",
+          "inGame": "20:39",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A93:P93",
+          "game": "9",
+          "team": "2",
+          "role": "Sea geo",
+          "os": 29,
+          "completion": "15:30",
+          "modeled": "17:00",
+          "inGame": "—",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A102:P102",
+          "game": "10",
+          "team": "1",
+          "role": "Sea geo",
+          "os": 18,
+          "completion": "23:00",
+          "modeled": "24:30",
+          "inGame": "24:30",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A110:P110",
+          "game": "10",
+          "team": "2",
+          "role": "Sea geo",
+          "os": 20,
+          "completion": "13:44",
+          "modeled": "15:14",
+          "inGame": "15:14",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A136:P136",
+          "game": "12",
+          "team": "1",
+          "role": "Sea geo",
+          "os": 21,
+          "completion": "13:30",
+          "modeled": "15:00",
+          "inGame": "15:00",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A158:P158",
+          "game": "13",
+          "team": "2",
+          "role": "Sea geo",
+          "os": 21,
+          "completion": "12:10",
+          "modeled": "13:40",
+          "inGame": "13:40",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A172:P172",
+          "game": "14",
+          "team": "1",
+          "role": "Sea beach",
+          "os": 11,
+          "completion": "15:37",
+          "modeled": "17:07",
+          "inGame": "17:07",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A186:P186",
+          "game": "15",
+          "team": "1",
+          "role": "Sea geo",
+          "os": 12,
+          "completion": "19:25",
+          "modeled": "20:55",
+          "inGame": "20:55",
+          "interpretable": true
+        }
+      ]
+    },
+    {
+      "type": "Prevailer",
+      "count": 7,
+      "recognized": false,
+      "timed": 7,
+      "rows": [
+        {
+          "ref": "Sheet1!A75:P75",
+          "game": "8",
+          "team": "1",
+          "role": "Air",
+          "os": 14,
+          "completion": "22:00",
+          "modeled": "23:30",
+          "inGame": "23:30",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A143:P143",
+          "game": "12",
+          "team": "2",
+          "role": "Geo",
+          "os": 21,
+          "completion": "10:35",
+          "modeled": "12:05",
+          "inGame": "12:05",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A165:P165",
+          "game": "14",
+          "team": "1",
+          "role": "Air",
+          "os": 21,
+          "completion": "20:30",
+          "modeled": "22:00",
+          "inGame": "22:00",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A190:P190",
+          "game": "15",
+          "team": "2",
+          "role": "Air",
+          "os": 22,
+          "completion": "11:26",
+          "modeled": "12:56",
+          "inGame": "12:56",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A191:P191",
+          "game": "15",
+          "team": "2",
+          "role": "Geo",
+          "os": 20,
+          "completion": "13:43",
+          "modeled": "15:13",
+          "inGame": "15:13",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A193:P193",
+          "game": "15",
+          "team": "2",
+          "role": "Tech",
+          "os": 14,
+          "completion": "17:29",
+          "modeled": "18:59",
+          "inGame": "18:59",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A195:P195",
+          "game": "15",
+          "team": "2",
+          "role": "Front1",
+          "os": 9,
+          "completion": "18:40",
+          "modeled": "20:10",
+          "inGame": "20:10",
+          "interpretable": true
+        }
+      ]
+    },
+    {
+      "type": "Umbrella",
+      "count": 7,
+      "recognized": true,
+      "timed": 7,
+      "rows": [
+        {
+          "ref": "Sheet1!A5:P5",
+          "game": "1",
+          "team": "1",
+          "role": "Tech",
+          "os": 25,
+          "completion": "11:18",
+          "modeled": "12:48",
+          "inGame": "12:48",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A20:P20",
+          "game": "2",
+          "team": "1",
+          "role": "Tech",
+          "os": 21,
+          "completion": "11:24",
+          "modeled": "12:54",
+          "inGame": "12:54",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A37:P37",
+          "game": "3",
+          "team": "2",
+          "role": "Tech",
+          "os": 21,
+          "completion": "12:05",
+          "modeled": "13:35",
+          "inGame": "13:35",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A43:P43",
+          "game": "4",
+          "team": "1",
+          "role": "Tech",
+          "os": 22,
+          "completion": "12:20",
+          "modeled": "13:50",
+          "inGame": "13:50",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A52:P52",
+          "game": "6",
+          "team": "1",
+          "role": "Tech",
+          "os": 30,
+          "completion": "11:12",
+          "modeled": "12:42",
+          "inGame": "12:42",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A127:P127",
+          "game": "11",
+          "team": "2",
+          "role": "Tech",
+          "os": 15,
+          "completion": "15:21",
+          "modeled": "16:51",
+          "inGame": "16:51",
+          "interpretable": true
+        },
+        {
+          "ref": "Sheet1!A133:P133",
+          "game": "12",
+          "team": "1",
+          "role": "Tech",
+          "os": 26,
+          "completion": "11:20",
+          "modeled": "12:50",
+          "inGame": "12:50",
+          "interpretable": true
+        }
+      ]
+    }
+  ],
+  "coveredRows": [
+    {
+      "ref": "Sheet1!A5:P5",
+      "game": "1",
+      "team": "1",
+      "role": "Tech",
+      "type": "Umbrella",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "12:48",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A8:P8",
+          "role": "Air",
+          "providerIncluded": true,
+          "coverage": "12:48"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A20:P20",
+      "game": "2",
+      "team": "1",
+      "role": "Tech",
+      "type": "Umbrella",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "12:54",
+      "matchedTargets": [],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A24:P24",
+      "game": "2",
+      "team": "2",
+      "role": "Geo",
+      "type": "Citadel",
+      "raw": "Pond",
+      "parsed": [
+        "Pond"
+      ],
+      "modeled": "23:30",
+      "matchedTargets": [],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A37:P37",
+      "game": "3",
+      "team": "2",
+      "role": "Tech",
+      "type": "Umbrella",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "13:35",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A39:P39",
+          "role": "Air",
+          "providerIncluded": true,
+          "coverage": "13:35"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A43:P43",
+      "game": "4",
+      "team": "1",
+      "role": "Tech",
+      "type": "Umbrella",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "13:50",
+      "matchedTargets": [],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A52:P52",
+      "game": "6",
+      "team": "1",
+      "role": "Tech",
+      "type": "Umbrella",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "12:42",
+      "matchedTargets": [],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A61:P61",
+      "game": "7",
+      "team": "2",
+      "role": "Front1",
+      "type": "Citadel",
+      "raw": "Front2",
+      "parsed": [
+        "Front2"
+      ],
+      "modeled": "18:45",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A62:P62",
+          "role": "Front2",
+          "providerIncluded": true,
+          "coverage": "18:45"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A71:P71",
+      "game": "8",
+      "team": "1",
+      "role": "Tech",
+      "type": "Citadel",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "15:45",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A75:P75",
+          "role": "Air",
+          "providerIncluded": true,
+          "coverage": "15:45"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A75:P75",
+      "game": "8",
+      "team": "1",
+      "role": "Air",
+      "type": "Prevailer",
+      "raw": "Tech",
+      "parsed": [
+        "Tech"
+      ],
+      "modeled": "23:30",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A71:P71",
+          "role": "Tech",
+          "providerIncluded": true,
+          "coverage": "15:45"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A77:P77",
+      "game": "8",
+      "team": "2",
+      "role": "Front1",
+      "type": "Citadel",
+      "raw": "Front2",
+      "parsed": [
+        "Front2"
+      ],
+      "modeled": "16:35",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A82:P82",
+          "role": "Front2",
+          "providerIncluded": true,
+          "coverage": "16:35"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A79:P79",
+      "game": "8",
+      "team": "2",
+      "role": "Tech",
+      "type": "Citadel",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "17:25",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A81:P81",
+          "role": "Air",
+          "providerIncluded": true,
+          "coverage": "17:25"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A102:P102",
+      "game": "10",
+      "team": "1",
+      "role": "Sea geo",
+      "type": "Oasis",
+      "raw": "Pond",
+      "parsed": [
+        "Pond"
+      ],
+      "modeled": "24:30",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A106:P106",
+          "role": "Pond",
+          "providerIncluded": true,
+          "coverage": "15:30"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A103:P103",
+      "game": "10",
+      "team": "1",
+      "role": "Geo",
+      "type": "Citadel",
+      "raw": "Front2, Sea beach",
+      "parsed": [
+        "Front2",
+        "Sea beach"
+      ],
+      "modeled": "19:18",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A101:P101",
+          "role": "Sea beach",
+          "providerIncluded": true,
+          "coverage": "19:18"
+        },
+        {
+          "ref": "Sheet1!A107:P107",
+          "role": "Front2",
+          "providerIncluded": true,
+          "coverage": "19:18"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A105:P105",
+      "game": "10",
+      "team": "1",
+      "role": "Tech",
+      "type": "Citadel",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "23:12",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A104:P104",
+          "role": "Air",
+          "providerIncluded": true,
+          "coverage": "23:12"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A107:P107",
+      "game": "10",
+      "team": "1",
+      "role": "Front2",
+      "type": "Citadel",
+      "raw": "Front1",
+      "parsed": [
+        "Front1"
+      ],
+      "modeled": "24:51:30",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A108:P108",
+          "role": "Front1",
+          "providerIncluded": false,
+          "coverage": "—"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A112:P112",
+      "game": "10",
+      "team": "2",
+      "role": "Air",
+      "type": "Citadel",
+      "raw": "Tech",
+      "parsed": [
+        "Tech"
+      ],
+      "modeled": "16:16",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A109:P109",
+          "role": "Tech",
+          "providerIncluded": true,
+          "coverage": "16:16"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A113:P113",
+      "game": "10",
+      "team": "2",
+      "role": "Geo",
+      "type": "Citadel",
+      "raw": "Front2, Pond",
+      "parsed": [
+        "Front2",
+        "Pond"
+      ],
+      "modeled": "21:15",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A114:P114",
+          "role": "Front2",
+          "providerIncluded": true,
+          "coverage": "21:15"
+        },
+        {
+          "ref": "Sheet1!A115:P115",
+          "role": "Pond",
+          "providerIncluded": true,
+          "coverage": "21:15"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A119:P119",
+      "game": "11",
+      "team": "1",
+      "role": "Pond",
+      "type": "Citadel",
+      "raw": "Front1, Front2",
+      "parsed": [
+        "Front1",
+        "Front2"
+      ],
+      "modeled": "16:48",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A118:P118",
+          "role": "Front1",
+          "providerIncluded": true,
+          "coverage": "16:03"
+        },
+        {
+          "ref": "Sheet1!A123:P123",
+          "role": "Front2",
+          "providerIncluded": true,
+          "coverage": "16:03"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A123:P123",
+      "game": "11",
+      "team": "1",
+      "role": "Front2",
+      "type": "Citadel",
+      "raw": "Geo, Pond, Front1",
+      "parsed": [
+        "Geo",
+        "Pond",
+        "Front1"
+      ],
+      "modeled": "16:03",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A118:P118",
+          "role": "Front1",
+          "providerIncluded": true,
+          "coverage": "16:03"
+        },
+        {
+          "ref": "Sheet1!A119:P119",
+          "role": "Pond",
+          "providerIncluded": true,
+          "coverage": "16:03"
+        },
+        {
+          "ref": "Sheet1!A121:P121",
+          "role": "Geo",
+          "providerIncluded": true,
+          "coverage": "16:03"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A133:P133",
+      "game": "12",
+      "team": "1",
+      "role": "Tech",
+      "type": "Umbrella",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "12:50",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A137:P137",
+          "role": "Air",
+          "providerIncluded": true,
+          "coverage": "12:50"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A134:P134",
+      "game": "12",
+      "team": "1",
+      "role": "Geo",
+      "type": "Citadel",
+      "raw": "Sea beach, Front2",
+      "parsed": [
+        "Sea beach",
+        "Front2"
+      ],
+      "modeled": "20:54",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A135:P135",
+          "role": "Front2",
+          "providerIncluded": true,
+          "coverage": "20:54"
+        },
+        {
+          "ref": "Sheet1!A140:P140",
+          "role": "Sea beach",
+          "providerIncluded": true,
+          "coverage": "20:54"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A137:P137",
+      "game": "12",
+      "team": "1",
+      "role": "Air",
+      "type": "Citadel",
+      "raw": "Tech",
+      "parsed": [
+        "Tech"
+      ],
+      "modeled": "13:42",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A133:P133",
+          "role": "Tech",
+          "providerIncluded": true,
+          "coverage": "12:50"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A143:P143",
+      "game": "12",
+      "team": "2",
+      "role": "Geo",
+      "type": "Prevailer",
+      "raw": "Front2, Sea beach",
+      "parsed": [
+        "Front2",
+        "Sea beach"
+      ],
+      "modeled": "12:05",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A142:P142",
+          "role": "Front2",
+          "providerIncluded": true,
+          "coverage": "12:05"
+        },
+        {
+          "ref": "Sheet1!A145:P145",
+          "role": "Sea beach",
+          "providerIncluded": true,
+          "coverage": "12:05"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A144:P144",
+      "game": "12",
+      "team": "2",
+      "role": "Tech",
+      "type": "Citadel",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "14:35",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A147:P147",
+          "role": "Air",
+          "providerIncluded": true,
+          "coverage": "14:35"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A148:P148",
+      "game": "12",
+      "team": "2",
+      "role": "Pond",
+      "type": "Citadel",
+      "raw": "Front1",
+      "parsed": [
+        "Front1"
+      ],
+      "modeled": "15:12",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A141:P141",
+          "role": "Front1",
+          "providerIncluded": true,
+          "coverage": "15:12"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A154:P154",
+      "game": "13",
+      "team": "1",
+      "role": "Sea beach",
+      "type": "Citadel",
+      "raw": "Geo",
+      "parsed": [
+        "Geo"
+      ],
+      "modeled": "22:14",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A152:P152",
+          "role": "Geo",
+          "providerIncluded": true,
+          "coverage": "22:14"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A157:P157",
+      "game": "13",
+      "team": "2",
+      "role": "Geo",
+      "type": "Citadel",
+      "raw": "Sea beach, Front2",
+      "parsed": [
+        "Sea beach",
+        "Front2"
+      ],
+      "modeled": "14:38",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A163:P163",
+          "role": "Front2",
+          "providerIncluded": true,
+          "coverage": "14:38"
+        },
+        {
+          "ref": "Sheet1!A164:P164",
+          "role": "Sea beach",
+          "providerIncluded": true,
+          "coverage": "14:38"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A160:P160",
+      "game": "13",
+      "team": "2",
+      "role": "Tech",
+      "type": "Citadel",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "18:11",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A162:P162",
+          "role": "Air",
+          "providerIncluded": true,
+          "coverage": "18:11"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A161:P161",
+      "game": "13",
+      "team": "2",
+      "role": "Pond",
+      "type": "Citadel",
+      "raw": "Front1",
+      "parsed": [
+        "Front1"
+      ],
+      "modeled": "20:01",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A159:P159",
+          "role": "Front1",
+          "providerIncluded": true,
+          "coverage": "20:01"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A162:P162",
+      "game": "13",
+      "team": "2",
+      "role": "Air",
+      "type": "Citadel",
+      "raw": "Tech",
+      "parsed": [
+        "Tech"
+      ],
+      "modeled": "18:17",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A160:P160",
+          "role": "Tech",
+          "providerIncluded": true,
+          "coverage": "18:11"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A163:P163",
+      "game": "13",
+      "team": "2",
+      "role": "Front2",
+      "type": "Citadel",
+      "raw": "Front1, Geo",
+      "parsed": [
+        "Front1",
+        "Geo"
+      ],
+      "modeled": "25:23",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A157:P157",
+          "role": "Geo",
+          "providerIncluded": true,
+          "coverage": "14:38"
+        },
+        {
+          "ref": "Sheet1!A159:P159",
+          "role": "Front1",
+          "providerIncluded": true,
+          "coverage": "20:01"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A175:P175",
+      "game": "14",
+      "team": "2",
+      "role": "Front2",
+      "type": "Citadel",
+      "raw": "Front1, Geo",
+      "parsed": [
+        "Front1",
+        "Geo"
+      ],
+      "modeled": "19:58",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A173:P173",
+          "role": "Geo",
+          "providerIncluded": true,
+          "coverage": "19:58"
+        },
+        {
+          "ref": "Sheet1!A178:P178",
+          "role": "Front1",
+          "providerIncluded": true,
+          "coverage": "16:48"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A176:P176",
+      "game": "14",
+      "team": "2",
+      "role": "Tech",
+      "type": "Citadel",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "13:53",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A177:P177",
+          "role": "Air",
+          "providerIncluded": true,
+          "coverage": "13:53"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A178:P178",
+      "game": "14",
+      "team": "2",
+      "role": "Front1",
+      "type": "Citadel",
+      "raw": "Front2",
+      "parsed": [
+        "Front2"
+      ],
+      "modeled": "16:48",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A175:P175",
+          "role": "Front2",
+          "providerIncluded": true,
+          "coverage": "16:48"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A181:P181",
+      "game": "15",
+      "team": "1",
+      "role": "Tech",
+      "type": "Citadel",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "15:22",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A187:P187",
+          "role": "Air",
+          "providerIncluded": true,
+          "coverage": "15:22"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A184:P184",
+      "game": "15",
+      "team": "1",
+      "role": "Geo",
+      "type": "Citadel",
+      "raw": "Pond, Front1, Front2",
+      "parsed": [
+        "Pond",
+        "Front1",
+        "Front2"
+      ],
+      "modeled": "15:57",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A182:P182",
+          "role": "Front1",
+          "providerIncluded": true,
+          "coverage": "15:57"
+        },
+        {
+          "ref": "Sheet1!A183:P183",
+          "role": "Pond",
+          "providerIncluded": true,
+          "coverage": "15:57"
+        },
+        {
+          "ref": "Sheet1!A188:P188",
+          "role": "Front2",
+          "providerIncluded": true,
+          "coverage": "15:57"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A191:P191",
+      "game": "15",
+      "team": "2",
+      "role": "Geo",
+      "type": "Prevailer",
+      "raw": "Front2, Sea beach",
+      "parsed": [
+        "Front2",
+        "Sea beach"
+      ],
+      "modeled": "15:13",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A192:P192",
+          "role": "Front2",
+          "providerIncluded": true,
+          "coverage": "15:13"
+        },
+        {
+          "ref": "Sheet1!A196:P196",
+          "role": "Sea beach",
+          "providerIncluded": true,
+          "coverage": "15:13"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A193:P193",
+      "game": "15",
+      "team": "2",
+      "role": "Tech",
+      "type": "Prevailer",
+      "raw": "Air",
+      "parsed": [
+        "Air"
+      ],
+      "modeled": "18:59",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A190:P190",
+          "role": "Air",
+          "providerIncluded": true,
+          "coverage": "12:56"
+        }
+      ],
+      "parsingMatchesReference": true
+    },
+    {
+      "ref": "Sheet1!A195:P195",
+      "game": "15",
+      "team": "2",
+      "role": "Front1",
+      "type": "Prevailer",
+      "raw": "Front2",
+      "parsed": [
+        "Front2"
+      ],
+      "modeled": "20:10",
+      "matchedTargets": [
+        {
+          "ref": "Sheet1!A192:P192",
+          "role": "Front2",
+          "providerIncluded": true,
+          "coverage": "15:13"
+        }
+      ],
+      "parsingMatchesReference": true
+    }
+  ],
+  "coverageTargetsChecked": 211,
+  "coverageReferenceMismatches": [],
+  "validationIssueCounts": {
+    "AN Type: Unknown AN category; 90-second model still applies": 11,
+    "AN built time: Invalid elapsed time: ?": 1,
+    "AN built time: Observed timestamp is after effective game end (recorded endpoint)": 1,
+    "Position: Missing role": 5,
+    "Position: Role outside supported display mapping; literal retained": 5,
+    "Roster: Game 16: 11 usable player rows; partial for the 16-slot scope": 1,
+    "Roster: Game 2: 9 usable player rows; partial for the 16-slot scope": 1,
+    "Roster: Game 2: Repeated role Geo on Team 2; target identity may be ambiguous": 1,
+    "Roster: Game 4: 2 usable player rows; partial for the 16-slot scope": 1,
+    "Roster: Game 5: 7 usable player rows; partial for the 16-slot scope": 1,
+    "Roster: Game 6: 1 usable player rows; partial for the 16-slot scope": 1,
+    "Team ID: Unknown team": 5
+  },
+  "issues": [
+    {
+      "field": "Team ID",
+      "message": "Unknown team",
+      "rowRef": "Sheet1!A46:P46"
+    },
+    {
+      "field": "Team ID",
+      "message": "Unknown team",
+      "rowRef": "Sheet1!A48:P48"
+    },
+    {
+      "field": "Team ID",
+      "message": "Unknown team",
+      "rowRef": "Sheet1!A49:P49"
+    },
+    {
+      "field": "Team ID",
+      "message": "Unknown team",
+      "rowRef": "Sheet1!A50:P50"
+    },
+    {
+      "field": "Team ID",
+      "message": "Unknown team",
+      "rowRef": "Sheet1!A51:P51"
+    },
+    {
+      "field": "Position",
+      "message": "Missing role",
+      "rowRef": "Sheet1!A208:P208"
+    },
+    {
+      "field": "Position",
+      "message": "Missing role",
+      "rowRef": "Sheet1!A209:P209"
+    },
+    {
+      "field": "Position",
+      "message": "Missing role",
+      "rowRef": "Sheet1!A210:P210"
+    },
+    {
+      "field": "Position",
+      "message": "Missing role",
+      "rowRef": "Sheet1!A211:P211"
+    },
+    {
+      "field": "Position",
+      "message": "Missing role",
+      "rowRef": "Sheet1!A212:P212"
+    },
+    {
+      "field": "Roster",
+      "message": "Game 2: 9 usable player rows; partial for the 16-slot scope"
+    },
+    {
+      "field": "Roster",
+      "message": "Game 2: Repeated role Geo on Team 2; target identity may be ambiguous"
+    },
+    {
+      "field": "Roster",
+      "message": "Game 4: 2 usable player rows; partial for the 16-slot scope"
+    },
+    {
+      "field": "Roster",
+      "message": "Game 5: 7 usable player rows; partial for the 16-slot scope"
+    },
+    {
+      "field": "Roster",
+      "message": "Game 6: 1 usable player rows; partial for the 16-slot scope"
+    },
+    {
+      "field": "Roster",
+      "message": "Game 16: 11 usable player rows; partial for the 16-slot scope"
+    },
+    {
+      "field": "AN built time",
+      "message": "Invalid elapsed time: ?",
+      "rowRef": "Sheet1!A14:P14"
+    },
+    {
+      "field": "AN Type",
+      "message": "Unknown AN category; 90-second model still applies",
+      "rowRef": "Sheet1!A75:P75"
+    },
+    {
+      "field": "AN Type",
+      "message": "Unknown AN category; 90-second model still applies",
+      "rowRef": "Sheet1!A80:P80"
+    },
+    {
+      "field": "AN built time",
+      "message": "Observed timestamp is after effective game end (recorded endpoint)",
+      "rowRef": "Sheet1!A107:P107"
+    },
+    {
+      "field": "AN Type",
+      "message": "Unknown AN category; 90-second model still applies",
+      "rowRef": "Sheet1!A143:P143"
+    },
+    {
+      "field": "AN Type",
+      "message": "Unknown AN category; 90-second model still applies",
+      "rowRef": "Sheet1!A165:P165"
+    },
+    {
+      "field": "AN Type",
+      "message": "Unknown AN category; 90-second model still applies",
+      "rowRef": "Sheet1!A179:P179"
+    },
+    {
+      "field": "AN Type",
+      "message": "Unknown AN category; 90-second model still applies",
+      "rowRef": "Sheet1!A182:P182"
+    },
+    {
+      "field": "AN Type",
+      "message": "Unknown AN category; 90-second model still applies",
+      "rowRef": "Sheet1!A185:P185"
+    },
+    {
+      "field": "AN Type",
+      "message": "Unknown AN category; 90-second model still applies",
+      "rowRef": "Sheet1!A190:P190"
+    },
+    {
+      "field": "AN Type",
+      "message": "Unknown AN category; 90-second model still applies",
+      "rowRef": "Sheet1!A191:P191"
+    },
+    {
+      "field": "AN Type",
+      "message": "Unknown AN category; 90-second model still applies",
+      "rowRef": "Sheet1!A193:P193"
+    },
+    {
+      "field": "AN Type",
+      "message": "Unknown AN category; 90-second model still applies",
+      "rowRef": "Sheet1!A195:P195"
+    },
+    {
+      "field": "Position",
+      "message": "Role outside supported display mapping; literal retained",
+      "rowRef": "Sheet1!A208:P208"
+    },
+    {
+      "field": "Position",
+      "message": "Role outside supported display mapping; literal retained",
+      "rowRef": "Sheet1!A209:P209"
+    },
+    {
+      "field": "Position",
+      "message": "Role outside supported display mapping; literal retained",
+      "rowRef": "Sheet1!A210:P210"
+    },
+    {
+      "field": "Position",
+      "message": "Role outside supported display mapping; literal retained",
+      "rowRef": "Sheet1!A211:P211"
+    },
+    {
+      "field": "Position",
+      "message": "Role outside supported display mapping; literal retained",
+      "rowRef": "Sheet1!A212:P212"
+    }
+  ]
+}

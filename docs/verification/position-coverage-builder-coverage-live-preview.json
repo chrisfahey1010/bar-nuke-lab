@@ -1,0 +1,413 @@
+{
+  "sourceUrl": "https://docs.google.com/spreadsheets/d/1KOvDzr5li30oBIp_yWNXyauAgZ9Tav4N7tJchd4CK_c/export?format=csv&gid=0",
+  "acquiredAt": "2026-10-02T11:49:01.760Z",
+  "sourceRows": 531,
+  "cohorts": [
+    {
+      "role": "",
+      "n": 179,
+      "bands": [
+        {
+          "label": "0–<10",
+          "n": 3,
+          "counts": [
+            2,
+            1,
+            0
+          ],
+          "refs": [
+            "Sheet1!A26:P26",
+            "Sheet1!A195:P195",
+            "Sheet1!A203:P203"
+          ]
+        },
+        {
+          "label": "10–<20",
+          "n": 68,
+          "counts": [
+            23,
+            31,
+            14
+          ],
+          "refs": [
+            "Sheet1!A17:P17",
+            "Sheet1!A24:P24",
+            "Sheet1!A32:P32",
+            "Sheet1!A46:P46",
+            "Sheet1!A75:P75",
+            "Sheet1!A79:P79",
+            "Sheet1!A80:P80",
+            "Sheet1!A83:P83",
+            "Sheet1!A102:P102",
+            "Sheet1!A103:P103",
+            "Sheet1!A105:P105",
+            "Sheet1!A106:P106",
+            "Sheet1!A107:P107",
+            "Sheet1!A112:P112",
+            "Sheet1!A113:P113",
+            "Sheet1!A119:P119",
+            "Sheet1!A123:P123",
+            "Sheet1!A127:P127",
+            "Sheet1!A137:P137",
+            "Sheet1!A146:P146",
+            "Sheet1!A148:P148",
+            "Sheet1!A154:P154",
+            "Sheet1!A160:P160",
+            "Sheet1!A161:P161",
+            "Sheet1!A162:P162",
+            "Sheet1!A163:P163",
+            "Sheet1!A172:P172",
+            "Sheet1!A175:P175",
+            "Sheet1!A176:P176",
+            "Sheet1!A179:P179",
+            "Sheet1!A184:P184",
+            "Sheet1!A185:P185",
+            "Sheet1!A186:P186",
+            "Sheet1!A193:P193",
+            "Sheet1!A199:P199",
+            "Sheet1!A200:P200",
+            "Sheet1!A210:P210",
+            "Sheet1!A219:P219",
+            "Sheet1!A225:P225",
+            "Sheet1!A227:P227",
+            "Sheet1!A232:P232",
+            "Sheet1!A234:P234",
+            "Sheet1!A236:P236",
+            "Sheet1!A250:P250",
+            "Sheet1!A260:P260",
+            "Sheet1!A268:P268",
+            "Sheet1!A275:P275",
+            "Sheet1!A276:P276",
+            "Sheet1!A331:P331",
+            "Sheet1!A340:P340",
+            "Sheet1!A406:P406",
+            "Sheet1!A408:P408",
+            "Sheet1!A409:P409",
+            "Sheet1!A413:P413",
+            "Sheet1!A416:P416",
+            "Sheet1!A449:P449",
+            "Sheet1!A459:P459",
+            "Sheet1!A485:P485",
+            "Sheet1!A487:P487",
+            "Sheet1!A488:P488",
+            "Sheet1!A489:P489",
+            "Sheet1!A493:P493",
+            "Sheet1!A494:P494",
+            "Sheet1!A496:P496",
+            "Sheet1!A498:P498",
+            "Sheet1!A508:P508",
+            "Sheet1!A523:P523",
+            "Sheet1!A532:P532"
+          ]
+        },
+        {
+          "label": "20–<30",
+          "n": 71,
+          "counts": [
+            29,
+            29,
+            13
+          ],
+          "refs": [
+            "Sheet1!A4:P4",
+            "Sheet1!A5:P5",
+            "Sheet1!A19:P19",
+            "Sheet1!A20:P20",
+            "Sheet1!A22:P22",
+            "Sheet1!A23:P23",
+            "Sheet1!A28:P28",
+            "Sheet1!A37:P37",
+            "Sheet1!A43:P43",
+            "Sheet1!A44:P44",
+            "Sheet1!A45:P45",
+            "Sheet1!A47:P47",
+            "Sheet1!A48:P48",
+            "Sheet1!A49:P49",
+            "Sheet1!A50:P50",
+            "Sheet1!A51:P51",
+            "Sheet1!A71:P71",
+            "Sheet1!A77:P77",
+            "Sheet1!A78:P78",
+            "Sheet1!A93:P93",
+            "Sheet1!A110:P110",
+            "Sheet1!A117:P117",
+            "Sheet1!A133:P133",
+            "Sheet1!A134:P134",
+            "Sheet1!A136:P136",
+            "Sheet1!A143:P143",
+            "Sheet1!A144:P144",
+            "Sheet1!A157:P157",
+            "Sheet1!A158:P158",
+            "Sheet1!A165:P165",
+            "Sheet1!A181:P181",
+            "Sheet1!A182:P182",
+            "Sheet1!A190:P190",
+            "Sheet1!A191:P191",
+            "Sheet1!A197:P197",
+            "Sheet1!A198:P198",
+            "Sheet1!A206:P206",
+            "Sheet1!A215:P215",
+            "Sheet1!A216:P216",
+            "Sheet1!A223:P223",
+            "Sheet1!A237:P237",
+            "Sheet1!A247:P247",
+            "Sheet1!A256:P256",
+            "Sheet1!A264:P264",
+            "Sheet1!A271:P271",
+            "Sheet1!A272:P272",
+            "Sheet1!A273:P273",
+            "Sheet1!A320:P320",
+            "Sheet1!A321:P321",
+            "Sheet1!A322:P322",
+            "Sheet1!A323:P323",
+            "Sheet1!A362:P362",
+            "Sheet1!A371:P371",
+            "Sheet1!A372:P372",
+            "Sheet1!A376:P376",
+            "Sheet1!A383:P383",
+            "Sheet1!A392:P392",
+            "Sheet1!A393:P393",
+            "Sheet1!A395:P395",
+            "Sheet1!A400:P400",
+            "Sheet1!A426:P426",
+            "Sheet1!A438:P438",
+            "Sheet1!A440:P440",
+            "Sheet1!A445:P445",
+            "Sheet1!A456:P456",
+            "Sheet1!A463:P463",
+            "Sheet1!A472:P472",
+            "Sheet1!A517:P517",
+            "Sheet1!A518:P518",
+            "Sheet1!A520:P520",
+            "Sheet1!A527:P527"
+          ]
+        },
+        {
+          "label": "30–<40",
+          "n": 27,
+          "counts": [
+            9,
+            14,
+            4
+          ],
+          "refs": [
+            "Sheet1!A11:P11",
+            "Sheet1!A52:P52",
+            "Sheet1!A64:P64",
+            "Sheet1!A65:P65",
+            "Sheet1!A229:P229",
+            "Sheet1!A255:P255",
+            "Sheet1!A269:P269",
+            "Sheet1!A310:P310",
+            "Sheet1!A311:P311",
+            "Sheet1!A326:P326",
+            "Sheet1!A333:P333",
+            "Sheet1!A334:P334",
+            "Sheet1!A336:P336",
+            "Sheet1!A359:P359",
+            "Sheet1!A366:P366",
+            "Sheet1!A367:P367",
+            "Sheet1!A368:P368",
+            "Sheet1!A399:P399",
+            "Sheet1!A423:P423",
+            "Sheet1!A431:P431",
+            "Sheet1!A480:P480",
+            "Sheet1!A481:P481",
+            "Sheet1!A502:P502",
+            "Sheet1!A504:P504",
+            "Sheet1!A510:P510",
+            "Sheet1!A511:P511",
+            "Sheet1!A512:P512"
+          ]
+        },
+        {
+          "label": "40–<50",
+          "n": 4,
+          "counts": [
+            4,
+            0,
+            0
+          ],
+          "refs": [
+            "Sheet1!A54:P54",
+            "Sheet1!A55:P55",
+            "Sheet1!A245:P245",
+            "Sheet1!A501:P501"
+          ]
+        },
+        {
+          "label": "50–<60",
+          "n": 1,
+          "counts": [
+            1,
+            0,
+            0
+          ],
+          "refs": [
+            "Sheet1!A53:P53"
+          ]
+        },
+        {
+          "label": "60–<70",
+          "n": 2,
+          "counts": [
+            0,
+            1,
+            1
+          ],
+          "refs": [
+            "Sheet1!A61:P61",
+            "Sheet1!A509:P509"
+          ]
+        },
+        {
+          "label": "Unranked",
+          "n": 3,
+          "counts": [
+            0,
+            2,
+            1
+          ],
+          "refs": [
+            "Sheet1!A178:P178",
+            "Sheet1!A415:P415",
+            "Sheet1!A439:P439"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Tech",
+      "n": 54,
+      "bands": [
+        {
+          "label": "10–<20",
+          "n": 17,
+          "counts": [
+            7,
+            10,
+            0
+          ],
+          "refs": [
+            "Sheet1!A17:P17",
+            "Sheet1!A32:P32",
+            "Sheet1!A79:P79",
+            "Sheet1!A105:P105",
+            "Sheet1!A127:P127",
+            "Sheet1!A160:P160",
+            "Sheet1!A176:P176",
+            "Sheet1!A193:P193",
+            "Sheet1!A199:P199",
+            "Sheet1!A227:P227",
+            "Sheet1!A236:P236",
+            "Sheet1!A250:P250",
+            "Sheet1!A268:P268",
+            "Sheet1!A331:P331",
+            "Sheet1!A408:P408",
+            "Sheet1!A416:P416",
+            "Sheet1!A496:P496"
+          ]
+        },
+        {
+          "label": "20–<30",
+          "n": 25,
+          "counts": [
+            5,
+            19,
+            1
+          ],
+          "refs": [
+            "Sheet1!A5:P5",
+            "Sheet1!A20:P20",
+            "Sheet1!A23:P23",
+            "Sheet1!A37:P37",
+            "Sheet1!A43:P43",
+            "Sheet1!A45:P45",
+            "Sheet1!A47:P47",
+            "Sheet1!A71:P71",
+            "Sheet1!A117:P117",
+            "Sheet1!A133:P133",
+            "Sheet1!A144:P144",
+            "Sheet1!A181:P181",
+            "Sheet1!A206:P206",
+            "Sheet1!A216:P216",
+            "Sheet1!A273:P273",
+            "Sheet1!A323:P323",
+            "Sheet1!A376:P376",
+            "Sheet1!A383:P383",
+            "Sheet1!A393:P393",
+            "Sheet1!A400:P400",
+            "Sheet1!A426:P426",
+            "Sheet1!A445:P445",
+            "Sheet1!A463:P463",
+            "Sheet1!A472:P472",
+            "Sheet1!A518:P518"
+          ]
+        },
+        {
+          "label": "30–<40",
+          "n": 10,
+          "counts": [
+            1,
+            9,
+            0
+          ],
+          "refs": [
+            "Sheet1!A52:P52",
+            "Sheet1!A65:P65",
+            "Sheet1!A310:P310",
+            "Sheet1!A336:P336",
+            "Sheet1!A359:P359",
+            "Sheet1!A367:P367",
+            "Sheet1!A431:P431",
+            "Sheet1!A480:P480",
+            "Sheet1!A504:P504",
+            "Sheet1!A512:P512"
+          ]
+        },
+        {
+          "label": "40–<50",
+          "n": 1,
+          "counts": [
+            1,
+            0,
+            0
+          ],
+          "refs": [
+            "Sheet1!A55:P55"
+          ]
+        },
+        {
+          "label": "Unranked",
+          "n": 1,
+          "counts": [
+            0,
+            1,
+            0
+          ],
+          "refs": [
+            "Sheet1!A439:P439"
+          ]
+        }
+      ]
+    }
+  ],
+  "views": [
+    {
+      "viewport": 1440,
+      "width": 408,
+      "height": 379,
+      "clipped": [],
+      "overflow": false,
+      "screenshot": "/home/chris/.hermes/cache/scratch/bar-position-preview/builder-coverage-live-live-8f6d9-lders-in-desktop-and-mobile/builder-coverage-live-preview-1440.png"
+    },
+    {
+      "viewport": 390,
+      "width": 340,
+      "height": 379,
+      "clipped": [],
+      "overflow": false,
+      "screenshot": "/home/chris/.hermes/cache/scratch/bar-position-preview/builder-coverage-live-live-8f6d9-lders-in-desktop-and-mobile/builder-coverage-live-preview-390.png"
+    }
+  ]
+}

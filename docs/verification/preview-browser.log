@@ -1,0 +1,28 @@
+> bar-nuke-lab@1.0.0 test:preview
+> playwright test --config playwright.preview.config.ts
+
+
+Running 19 tests using 2 workers
+
+  ✓   1 tests/e2e/chart-linking.spec.ts:3:1 › actual Plotly point click and box brush link record evidence and cohort counts (853ms)
+  ✓   3 tests/e2e/chart-linking.spec.ts:30:1 › default cohort exposes suspicious endpoint review rather than silently treating it as 29 minutes (272ms)
+  ✓   4 tests/e2e/diagnostic.spec.ts:3:1 › modular Plotly actually renders both timing and OS charts without browser errors (263ms)
+  ✓   2 tests/e2e/accessibility.spec.ts:5:3 › accessible Timing Window view and methodology dialog (1.4s)
+  ✓   5 tests/e2e/linked-filters.spec.ts:3:1 › shared filters link timing, OS view, source table and record evidence (426ms)
+  ✓   6 tests/e2e/accessibility.spec.ts:5:3 › accessible OS Relationship view and methodology dialog (1.2s)
+LIVE BROWSER {"url":"http://127.0.0.1:4173/","responseStatus":200,"sourceResponseUrl":"https://doc-0s-2k-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/bu86ijnapuq192p2uqqlegudog/1790765425000/112118880661531280786/*/1KOvDzr5li30oBIp_yWNXyauAgZ9Tav4N7tJchd4CK_c?format=csv&gid=0","retrievedAt":"2026-09-30T10:50:26.077Z","rows":67,"games":7,"validAnTimes":29,"durations":[{"game":"1","duration":null,"raw":[]},{"game":"2","duration":null,"raw":[]},{"game":"3","duration":null,"raw":[]},{"game":"4","duration":null,"raw":[]},{"game":"5","duration":null,"raw":[]},{"game":"6","duration":null,"raw":[]},{"game":"7","duration":104580,"raw":["29:03:00"]}],"proxy":false}
+  ✓   7 tests/e2e/live-source.spec.ts:6:1 › actual browser fetches fresh Google CSV directly without credentials or a dev proxy (915ms)
+  ✓   9 tests/e2e/opening-strike.spec.ts:3:1 › timeline groups explicit teams and shows opening double-salvo evidence, not later campaign analytics (404ms)
+  ✓  10 tests/e2e/recovery-export.spec.ts:6:1 › once-per-game metadata import is explicit and does not write Google (327ms)
+  ✓   8 tests/e2e/accessibility.spec.ts:5:3 › accessible Match Timeline view and methodology dialog (1.3s)
+  ✓  11 tests/e2e/recovery-export.spec.ts:35:1 › failed refresh and HTML preserve cached rows; later valid additions appear and are announced (425ms)
+  ✓  13 tests/e2e/recovery-export.spec.ts:70:1 › filtered CSV and JSON downloads retain raw values and model/provider provenance (416ms)
+  ✓  14 tests/e2e/responsive.spec.ts:9:3 › responsive viewport 1440x900 and nondefault missing-duration state (500ms)
+  ✓  12 tests/e2e/accessibility.spec.ts:5:3 › accessible Data Explorer view and methodology dialog (1.1s)
+  ✓  15 tests/e2e/responsive.spec.ts:9:3 › responsive viewport 1920x1080 and nondefault missing-duration state (514ms)
+  ✓  16 tests/e2e/accessibility.spec.ts:26:1 › keyboard tabs, skip link, record focus and linked selection work (451ms)
+  ✓  18 tests/e2e/time-axis.spec.ts:3:1 › OS chart represents elapsed completion and modeled readiness in m:ss (337ms)
+  ✓  17 tests/e2e/responsive.spec.ts:9:3 › responsive viewport 390x844 and nondefault missing-duration state (433ms)
+  ✓  19 tests/e2e/unknown-completion.spec.ts:4:1 › type without completion is unknown in the selected evidence, not a confirmed nonbuilder (286ms)
+
+  19 passed (6.5s)

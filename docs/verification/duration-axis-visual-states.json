@@ -1,0 +1,683 @@
+{
+  "url": "http://127.0.0.1:4173/",
+  "source": "actual Google CSV, unmocked",
+  "states": [
+    {
+      "name": "default-1440x900",
+      "path": "docs/screenshots/revision-default-1440x900.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "sample": "7 selected games67 observed players29 valid timed AN builds6 × 30:00 placeholders1 corrected endpointDescriptive cohort includes partial history",
+      "summary": "Own AN modeled online6.4% 3/47Recorded target coverage10.6% 5/47Eligible ongoing games34 excluded · 19 rows",
+      "denominator": "Recorded roster slots in ongoing inferred-full games · own N=47; coverage N=47 · unknown: 1 own / 1 coverage. Endpoint assumptions in this cohort: 2 placeholder endpoints (30:00) · 1 corrected. ",
+      "duration": "30:00 · placeholder",
+      "charts": [
+        {
+          "xTitle": "Simulation elapsed time (m:ss)",
+          "yTitle": "Cumulative observations (count)",
+          "xRange": [
+            10,
+            25
+          ],
+          "points": [
+            {
+              "name": "Own AN modeled online · n=29",
+              "x": [
+                0,
+                12.7,
+                12.8,
+                12.9,
+                13.5,
+                13.583333333333334,
+                13.833333333333334,
+                14.833333333333334,
+                15.133333333333333,
+                15.35,
+                16,
+                16.033333333333335,
+                17,
+                17,
+                17.016666666666666,
+                17.166666666666668,
+                17.4,
+                18.5,
+                18.566666666666666,
+                18.75,
+                19.25,
+                19.9,
+                19.916666666666668,
+                20,
+                20.166666666666668,
+                21.5,
+                21.666666666666668,
+                23,
+                23.5,
+                24.5
+              ],
+              "y": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ]
+            },
+            {
+              "name": "Recorded coverage milestones · n=31",
+              "x": [
+                0,
+                12.7,
+                12.8,
+                12.8,
+                12.9,
+                13.5,
+                13.583333333333334,
+                13.583333333333334,
+                13.833333333333334,
+                14.833333333333334,
+                15.133333333333333,
+                15.35,
+                16,
+                16.033333333333335,
+                17,
+                17,
+                17.016666666666666,
+                17.166666666666668,
+                17.166666666666668,
+                17.4,
+                18.5,
+                18.566666666666666,
+                18.75,
+                19.25,
+                19.9,
+                19.916666666666668,
+                20,
+                20.166666666666668,
+                21.5,
+                21.666666666666668,
+                23,
+                24.5
+              ],
+              "y": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "xTitle": "Modeled AN readiness (m:ss)",
+          "yTitle": "OS · Unranked shown separately at U",
+          "xRange": [
+            10,
+            25
+          ],
+          "points": [
+            {
+              "name": "Tech",
+              "x": [
+                12.7,
+                12.8,
+                12.9,
+                13.583333333333334,
+                13.833333333333334,
+                15.133333333333333,
+                15.35,
+                16,
+                17,
+                17.016666666666666,
+                20,
+                21.5
+              ],
+              "y": [
+                30,
+                25,
+                21,
+                21,
+                22,
+                45,
+                22,
+                10,
+                20,
+                20,
+                35,
+                14
+              ]
+            },
+            {
+              "name": "Geo",
+              "x": [
+                13.5,
+                17,
+                17.166666666666668,
+                17.4,
+                23.5
+              ],
+              "y": [
+                21,
+                54,
+                25,
+                12,
+                15
+              ]
+            },
+            {
+              "name": "Sea geo",
+              "x": [
+                14.833333333333334,
+                16.033333333333335,
+                18.566666666666666,
+                19.25,
+                24.5
+              ],
+              "y": [
+                33,
+                22,
+                29,
+                21,
+                22
+              ]
+            },
+            {
+              "name": "Pond",
+              "x": [
+                18.5,
+                23
+              ],
+              "y": [
+                38,
+                20
+              ]
+            },
+            {
+              "name": "Front1",
+              "x": [
+                18.75,
+                19.9,
+                20.166666666666668
+              ],
+              "y": [
+                61,
+                8,
+                24
+              ]
+            },
+            {
+              "name": "Sea beach",
+              "x": [
+                19.916666666666668
+              ],
+              "y": [
+                46
+              ]
+            },
+            {
+              "name": "Air",
+              "x": [
+                21.666666666666668
+              ],
+              "y": [
+                21
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tech-1500-1440x900",
+      "path": "docs/screenshots/revision-tech-1500-1440x900.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "sample": "7 selected games12 observed players12 valid timed AN builds6 × 30:00 placeholders1 corrected endpointDescriptive cohort includes partial history",
+      "summary": "Own AN modeled online33.3% 2/6Recorded target coverage33.3% 2/6Eligible ongoing games34 excluded · 6 rows",
+      "denominator": "Recorded roster slots in ongoing inferred-full games · own N=6; coverage N=6 · unknown: 0 own / 0 coverage. Endpoint assumptions in this cohort: 2 placeholder endpoints (30:00) · 1 corrected. ",
+      "duration": "30:00 · placeholder",
+      "charts": [
+        {
+          "xTitle": "Simulation elapsed time (m:ss)",
+          "yTitle": "Cumulative observations (count)",
+          "xRange": [
+            10,
+            25
+          ],
+          "points": [
+            {
+              "name": "Own AN modeled online · n=12",
+              "x": [
+                0,
+                12.7,
+                12.8,
+                12.9,
+                13.583333333333334,
+                13.833333333333334,
+                15.133333333333333,
+                15.35,
+                16,
+                17,
+                17.016666666666666,
+                20,
+                21.5
+              ],
+              "y": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ]
+            },
+            {
+              "name": "Recorded coverage milestones · n=12",
+              "x": [
+                0,
+                12.7,
+                12.8,
+                12.9,
+                13.583333333333334,
+                13.833333333333334,
+                15.133333333333333,
+                15.35,
+                16,
+                17,
+                17.016666666666666,
+                20,
+                21.5
+              ],
+              "y": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "xTitle": "Modeled AN readiness (m:ss)",
+          "yTitle": "OS · Unranked shown separately at U",
+          "xRange": [
+            10,
+            25
+          ],
+          "points": [
+            {
+              "name": "Tech",
+              "x": [
+                12.7,
+                12.8,
+                12.9,
+                13.583333333333334,
+                13.833333333333334,
+                15.133333333333333,
+                15.35,
+                16,
+                17,
+                17.016666666666666,
+                20,
+                21.5
+              ],
+              "y": [
+                30,
+                25,
+                21,
+                21,
+                22,
+                45,
+                22,
+                10,
+                20,
+                20,
+                35,
+                14
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "os-1440x900",
+      "path": "docs/screenshots/revision-os-1440x900.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "sample": "7 selected games67 observed players29 valid timed AN builds6 × 30:00 placeholders1 corrected endpointDescriptive cohort includes partial history",
+      "summary": "Own AN modeled online6.4% 3/47Recorded target coverage10.6% 5/47Eligible ongoing games34 excluded · 19 rows",
+      "denominator": "Recorded roster slots in ongoing inferred-full games · own N=47; coverage N=47 · unknown: 1 own / 1 coverage. Endpoint assumptions in this cohort: 2 placeholder endpoints (30:00) · 1 corrected. ",
+      "duration": "30:00 · placeholder",
+      "charts": [
+        {
+          "xTitle": "Modeled AN readiness (m:ss)",
+          "yTitle": "OS · Unranked shown separately at U",
+          "xRange": [
+            10,
+            25
+          ],
+          "points": [
+            {
+              "name": "Tech",
+              "x": [
+                12.7,
+                12.8,
+                12.9,
+                13.583333333333334,
+                13.833333333333334,
+                15.133333333333333,
+                15.35,
+                16,
+                17,
+                17.016666666666666,
+                20,
+                21.5
+              ],
+              "y": [
+                30,
+                25,
+                21,
+                21,
+                22,
+                45,
+                22,
+                10,
+                20,
+                20,
+                35,
+                14
+              ]
+            },
+            {
+              "name": "Geo",
+              "x": [
+                13.5,
+                17,
+                17.166666666666668,
+                17.4,
+                23.5
+              ],
+              "y": [
+                21,
+                54,
+                25,
+                12,
+                15
+              ]
+            },
+            {
+              "name": "Sea geo",
+              "x": [
+                14.833333333333334,
+                16.033333333333335,
+                18.566666666666666,
+                19.25,
+                24.5
+              ],
+              "y": [
+                33,
+                22,
+                29,
+                21,
+                22
+              ]
+            },
+            {
+              "name": "Pond",
+              "x": [
+                18.5,
+                23
+              ],
+              "y": [
+                38,
+                20
+              ]
+            },
+            {
+              "name": "Front1",
+              "x": [
+                18.75,
+                19.9,
+                20.166666666666668
+              ],
+              "y": [
+                61,
+                8,
+                24
+              ]
+            },
+            {
+              "name": "Sea beach",
+              "x": [
+                19.916666666666668
+              ],
+              "y": [
+                46
+              ]
+            },
+            {
+              "name": "Air",
+              "x": [
+                21.666666666666668
+              ],
+              "y": [
+                21
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "os-390x844",
+      "path": "docs/screenshots/revision-os-390x844.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "sample": "7 selected games67 observed players29 valid timed AN builds6 × 30:00 placeholders1 corrected endpointDescriptive cohort includes partial history",
+      "summary": "Own AN modeled online6.4% 3/47Recorded target coverage10.6% 5/47Eligible ongoing games34 excluded · 19 rows",
+      "denominator": "Recorded roster slots in ongoing inferred-full games · own N=47; coverage N=47 · unknown: 1 own / 1 coverage. Endpoint assumptions in this cohort: 2 placeholder endpoints (30:00) · 1 corrected. ",
+      "duration": "30:00 · placeholder",
+      "charts": [
+        {
+          "xTitle": "Modeled AN readiness (m:ss)",
+          "yTitle": "OS · Unranked shown separately at U",
+          "xRange": [
+            10,
+            25
+          ],
+          "points": [
+            {
+              "name": "Tech",
+              "x": [
+                12.7,
+                12.8,
+                12.9,
+                13.583333333333334,
+                13.833333333333334,
+                15.133333333333333,
+                15.35,
+                16,
+                17,
+                17.016666666666666,
+                20,
+                21.5
+              ],
+              "y": [
+                30,
+                25,
+                21,
+                21,
+                22,
+                45,
+                22,
+                10,
+                20,
+                20,
+                35,
+                14
+              ]
+            },
+            {
+              "name": "Geo",
+              "x": [
+                13.5,
+                17,
+                17.166666666666668,
+                17.4,
+                23.5
+              ],
+              "y": [
+                21,
+                54,
+                25,
+                12,
+                15
+              ]
+            },
+            {
+              "name": "Sea geo",
+              "x": [
+                14.833333333333334,
+                16.033333333333335,
+                18.566666666666666,
+                19.25,
+                24.5
+              ],
+              "y": [
+                33,
+                22,
+                29,
+                21,
+                22
+              ]
+            },
+            {
+              "name": "Pond",
+              "x": [
+                18.5,
+                23
+              ],
+              "y": [
+                38,
+                20
+              ]
+            },
+            {
+              "name": "Front1",
+              "x": [
+                18.75,
+                19.9,
+                20.166666666666668
+              ],
+              "y": [
+                61,
+                8,
+                24
+              ]
+            },
+            {
+              "name": "Sea beach",
+              "x": [
+                19.916666666666668
+              ],
+              "y": [
+                46
+              ]
+            },
+            {
+              "name": "Air",
+              "x": [
+                21.666666666666668
+              ],
+              "y": [
+                21
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "browserErrors": []
+}

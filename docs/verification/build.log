@@ -1,0 +1,15 @@
+> bar-nuke-lab@1.0.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.1 building client environment for production...
+transforming...
+✓ 532 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.35 kB │ gzip:   0.26 kB
+dist/assets/index-BonoJF-i.css       9.34 kB │ gzip:   2.74 kB
+dist/assets/plotly-CKRTiAqP.css     82.86 kB │ gzip:  10.71 kB
+dist/assets/index-B2coAEV9.js      378.26 kB │ gzip: 116.14 kB
+dist/assets/plotly-m4wfZt4B.js   1,075.43 kB │ gzip: 370.34 kB
+
+✓ built in 224ms

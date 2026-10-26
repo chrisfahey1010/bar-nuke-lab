@@ -1,0 +1,2348 @@
+{
+  "base": "http://127.0.0.1:5173/",
+  "acquiredAt": "2026-10-01T05:50:55.956Z",
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "view": "compact",
+      "state": "both",
+      "screenshot": "/home/chris/dev/localprojs/bar-nuke-lab/docs/screenshots/os-trendlines-live-dev-compact-both-1440.png",
+      "bounds": {
+        "x": 685,
+        "y": 473.125,
+        "width": 434,
+        "height": 427.09375,
+        "top": 473.125,
+        "right": 1119,
+        "bottom": 900.21875,
+        "left": 685
+      },
+      "chartBounds": {
+        "x": 698,
+        "y": 547.125,
+        "width": 408,
+        "height": 230,
+        "top": 547.125,
+        "right": 1106,
+        "bottom": 777.125,
+        "left": 698
+      },
+      "horizontalOverflow": false,
+      "xRange": [
+        10,
+        25
+      ],
+      "yRange": [
+        -8,
+        66
+      ],
+      "traceSummary": [
+        {
+          "name": "Geo",
+          "mode": "markers",
+          "visible": true,
+          "n": 15,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech",
+          "mode": "markers",
+          "visible": true,
+          "n": 25,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air",
+          "mode": "markers",
+          "visible": true,
+          "n": 8,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo",
+          "mode": "markers",
+          "visible": true,
+          "n": 12,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond",
+          "mode": "markers",
+          "visible": true,
+          "n": 6,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2",
+          "mode": "markers",
+          "visible": true,
+          "n": 3,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1",
+          "mode": "markers",
+          "visible": true,
+          "n": 6,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Front1 · Unranked",
+          "mode": "markers",
+          "visible": true,
+          "n": 1,
+          "xMin": 16.8,
+          "xMax": 16.8,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach",
+          "mode": "markers",
+          "visible": true,
+          "n": 7,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        },
+        {
+          "name": "Geo · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2 · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1 · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        }
+      ],
+      "textClipping": [
+        {
+          "text": "Plotted points",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 24,
+          "scrollHeight": 24
+        },
+        {
+          "text": "Quadratic trendlines",
+          "width": 131,
+          "scrollWidth": 131,
+          "height": 24,
+          "scrollHeight": 24
+        },
+        {
+          "text": "Quadratic · ranked only · no extrapolation.",
+          "width": 408,
+          "scrollWidth": 408,
+          "height": 18,
+          "scrollHeight": 18
+        },
+        {
+          "text": "Fit notes · 8/8 positions fitted",
+          "width": 408,
+          "scrollWidth": 408,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Dotted curves: only 3 ranked builders; the curve passes through all three.",
+          "width": 408,
+          "scrollWidth": 408,
+          "height": 18,
+          "scrollHeight": 18
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "view": "full",
+      "state": "both",
+      "screenshot": "/home/chris/dev/localprojs/bar-nuke-lab/docs/screenshots/os-trendlines-live-dev-full-both-1440.png",
+      "bounds": {
+        "x": 22,
+        "y": 333.125,
+        "width": 1097,
+        "height": 567.1875,
+        "top": 333.125,
+        "right": 1119,
+        "bottom": 900.3125,
+        "left": 22
+      },
+      "chartBounds": {
+        "x": 35,
+        "y": 420.125,
+        "width": 1071,
+        "height": 340,
+        "top": 420.125,
+        "right": 1106,
+        "bottom": 760.125,
+        "left": 35
+      },
+      "horizontalOverflow": false,
+      "xRange": [
+        10,
+        25
+      ],
+      "yRange": [
+        -8,
+        66
+      ],
+      "traceSummary": [
+        {
+          "name": "Geo",
+          "mode": "markers",
+          "visible": true,
+          "n": 15,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech",
+          "mode": "markers",
+          "visible": true,
+          "n": 25,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air",
+          "mode": "markers",
+          "visible": true,
+          "n": 8,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo",
+          "mode": "markers",
+          "visible": true,
+          "n": 12,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond",
+          "mode": "markers",
+          "visible": true,
+          "n": 6,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2",
+          "mode": "markers",
+          "visible": true,
+          "n": 3,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1",
+          "mode": "markers",
+          "visible": true,
+          "n": 6,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Front1 · Unranked",
+          "mode": "markers",
+          "visible": true,
+          "n": 1,
+          "xMin": 16.8,
+          "xMax": 16.8,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach",
+          "mode": "markers",
+          "visible": true,
+          "n": 7,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        },
+        {
+          "name": "Geo · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2 · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1 · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        }
+      ],
+      "textClipping": [
+        {
+          "text": "Plotted points",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Quadratic trendlines",
+          "width": 131,
+          "scrollWidth": 131,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Quadratic fits · ranked builders only · within recorded time ranges, not predictions.",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 18,
+          "scrollHeight": 18
+        },
+        {
+          "text": "Fit notes · 8/8 positions fitted",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Dotted curves: only 3 ranked builders; the curve passes through all three.",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 18,
+          "scrollHeight": 18
+        },
+        {
+          "text": "Chart guide & fit details",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Circle: Citadel · diamond: Umbrella · square: Oasis · cross: missing/other type. Partial games are descriptive evidence. Adding 90 seconds shifts timings, not the OS relationship. Time view: 10:00–25:00; records outside the view remain in summaries and the source table. Fits summarize OS against AN time for each position in the filtered/selected cohort, including off-screen timings; Unranked is excluded. Drag a box on points to link a cohort selection. Click a position in the color key to hide/show its visible layers.",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 53,
+          "scrollHeight": 53
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "view": "full",
+      "state": "curves",
+      "screenshot": "/home/chris/dev/localprojs/bar-nuke-lab/docs/screenshots/os-trendlines-live-dev-full-curves-1440.png",
+      "bounds": {
+        "x": 22,
+        "y": 333.125,
+        "width": 1097,
+        "height": 567.1875,
+        "top": 333.125,
+        "right": 1119,
+        "bottom": 900.3125,
+        "left": 22
+      },
+      "chartBounds": {
+        "x": 35,
+        "y": 420.125,
+        "width": 1071,
+        "height": 340,
+        "top": 420.125,
+        "right": 1106,
+        "bottom": 760.125,
+        "left": 35
+      },
+      "horizontalOverflow": false,
+      "xRange": [
+        10,
+        25
+      ],
+      "yRange": [
+        -8,
+        66
+      ],
+      "traceSummary": [
+        {
+          "name": "Geo",
+          "mode": "markers",
+          "visible": false,
+          "n": 15,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech",
+          "mode": "markers",
+          "visible": false,
+          "n": 25,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air",
+          "mode": "markers",
+          "visible": false,
+          "n": 8,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo",
+          "mode": "markers",
+          "visible": false,
+          "n": 12,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond",
+          "mode": "markers",
+          "visible": false,
+          "n": 6,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2",
+          "mode": "markers",
+          "visible": false,
+          "n": 3,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1",
+          "mode": "markers",
+          "visible": false,
+          "n": 6,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Front1 · Unranked",
+          "mode": "markers",
+          "visible": false,
+          "n": 1,
+          "xMin": 16.8,
+          "xMax": 16.8,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach",
+          "mode": "markers",
+          "visible": false,
+          "n": 7,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        },
+        {
+          "name": "Geo · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2 · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1 · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        }
+      ],
+      "textClipping": [
+        {
+          "text": "Plotted points",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Quadratic trendlines",
+          "width": 131,
+          "scrollWidth": 131,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Quadratic fits · ranked builders only · within recorded time ranges, not predictions.",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 18,
+          "scrollHeight": 18
+        },
+        {
+          "text": "Fit notes · 8/8 positions fitted",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Dotted curves: only 3 ranked builders; the curve passes through all three.",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 18,
+          "scrollHeight": 18
+        },
+        {
+          "text": "Chart guide & fit details",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Circle: Citadel · diamond: Umbrella · square: Oasis · cross: missing/other type. Partial games are descriptive evidence. Adding 90 seconds shifts timings, not the OS relationship. Time view: 10:00–25:00; records outside the view remain in summaries and the source table. Fits summarize OS against AN time for each position in the filtered/selected cohort, including off-screen timings; Unranked is excluded. Drag a box on points to link a cohort selection. Click a position in the color key to hide/show its visible layers.",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 53,
+          "scrollHeight": 53
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "view": "full",
+      "state": "points",
+      "screenshot": "/home/chris/dev/localprojs/bar-nuke-lab/docs/screenshots/os-trendlines-live-dev-full-points-1440.png",
+      "bounds": {
+        "x": 22,
+        "y": 333.125,
+        "width": 1097,
+        "height": 494.5,
+        "top": 333.125,
+        "right": 1119,
+        "bottom": 827.625,
+        "left": 22
+      },
+      "chartBounds": {
+        "x": 35,
+        "y": 420.125,
+        "width": 1071,
+        "height": 340,
+        "top": 420.125,
+        "right": 1106,
+        "bottom": 760.125,
+        "left": 35
+      },
+      "horizontalOverflow": false,
+      "xRange": [
+        10,
+        25
+      ],
+      "yRange": [
+        -8,
+        66
+      ],
+      "traceSummary": [
+        {
+          "name": "Geo",
+          "mode": "markers",
+          "visible": true,
+          "n": 15,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech",
+          "mode": "markers",
+          "visible": true,
+          "n": 25,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air",
+          "mode": "markers",
+          "visible": true,
+          "n": 8,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo",
+          "mode": "markers",
+          "visible": true,
+          "n": 12,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond",
+          "mode": "markers",
+          "visible": true,
+          "n": 6,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2",
+          "mode": "markers",
+          "visible": true,
+          "n": 3,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1",
+          "mode": "markers",
+          "visible": true,
+          "n": 6,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Front1 · Unranked",
+          "mode": "markers",
+          "visible": true,
+          "n": 1,
+          "xMin": 16.8,
+          "xMax": 16.8,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach",
+          "mode": "markers",
+          "visible": true,
+          "n": 7,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        },
+        {
+          "name": "Geo · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2 · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1 · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        }
+      ],
+      "textClipping": [
+        {
+          "text": "Plotted points",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Quadratic trendlines",
+          "width": 131,
+          "scrollWidth": 131,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Chart guide & fit details",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Circle: Citadel · diamond: Umbrella · square: Oasis · cross: missing/other type. Partial games are descriptive evidence. Adding 90 seconds shifts timings, not the OS relationship. Time view: 10:00–25:00; records outside the view remain in summaries and the source table. Fits summarize OS against AN time for each position in the filtered/selected cohort, including off-screen timings; Unranked is excluded. Drag a box on points to link a cohort selection. Click a position in the color key to hide/show its visible layers.",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 53,
+          "scrollHeight": 53
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "view": "full",
+      "state": "hidden",
+      "screenshot": "/home/chris/dev/localprojs/bar-nuke-lab/docs/screenshots/os-trendlines-live-dev-full-hidden-1440.png",
+      "bounds": {
+        "x": 22,
+        "y": 333.125,
+        "width": 1097,
+        "height": 527.09375,
+        "top": 333.125,
+        "right": 1119,
+        "bottom": 860.21875,
+        "left": 22
+      },
+      "chartBounds": {
+        "x": 35,
+        "y": 420.125,
+        "width": 1071,
+        "height": 340,
+        "top": 420.125,
+        "right": 1106,
+        "bottom": 760.125,
+        "left": 35
+      },
+      "horizontalOverflow": false,
+      "xRange": [
+        10,
+        25
+      ],
+      "yRange": [
+        -8,
+        66
+      ],
+      "traceSummary": [
+        {
+          "name": "Geo",
+          "mode": "markers",
+          "visible": false,
+          "n": 15,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech",
+          "mode": "markers",
+          "visible": false,
+          "n": 25,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air",
+          "mode": "markers",
+          "visible": false,
+          "n": 8,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo",
+          "mode": "markers",
+          "visible": false,
+          "n": 12,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond",
+          "mode": "markers",
+          "visible": false,
+          "n": 6,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2",
+          "mode": "markers",
+          "visible": false,
+          "n": 3,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1",
+          "mode": "markers",
+          "visible": false,
+          "n": 6,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Front1 · Unranked",
+          "mode": "markers",
+          "visible": false,
+          "n": 1,
+          "xMin": 16.8,
+          "xMax": 16.8,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach",
+          "mode": "markers",
+          "visible": false,
+          "n": 7,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        },
+        {
+          "name": "Geo · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2 · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1 · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        }
+      ],
+      "textClipping": [
+        {
+          "text": "Plotted points",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Quadratic trendlines",
+          "width": 131,
+          "scrollWidth": 131,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Both layers are hidden. Enable points or trendlines to show the graph.",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 18,
+          "scrollHeight": 18
+        },
+        {
+          "text": "Chart guide & fit details",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Circle: Citadel · diamond: Umbrella · square: Oasis · cross: missing/other type. Partial games are descriptive evidence. Adding 90 seconds shifts timings, not the OS relationship. Time view: 10:00–25:00; records outside the view remain in summaries and the source table. Fits summarize OS against AN time for each position in the filtered/selected cohort, including off-screen timings; Unranked is excluded. Drag a box on points to link a cohort selection. Click a position in the color key to hide/show its visible layers.",
+          "width": 1071,
+          "scrollWidth": 1071,
+          "height": 53,
+          "scrollHeight": 53
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "view": "compact",
+      "state": "both",
+      "screenshot": "/home/chris/dev/localprojs/bar-nuke-lab/docs/screenshots/os-trendlines-live-dev-compact-both-390.png",
+      "bounds": {
+        "x": 12,
+        "y": 208.890625,
+        "width": 366,
+        "height": 427.09375,
+        "top": 208.890625,
+        "right": 378,
+        "bottom": 635.984375,
+        "left": 12
+      },
+      "chartBounds": {
+        "x": 25,
+        "y": 282.890625,
+        "width": 340,
+        "height": 230,
+        "top": 282.890625,
+        "right": 365,
+        "bottom": 512.890625,
+        "left": 25
+      },
+      "horizontalOverflow": false,
+      "xRange": [
+        10,
+        25
+      ],
+      "yRange": [
+        -8,
+        66
+      ],
+      "traceSummary": [
+        {
+          "name": "Geo",
+          "mode": "markers",
+          "visible": true,
+          "n": 15,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech",
+          "mode": "markers",
+          "visible": true,
+          "n": 25,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air",
+          "mode": "markers",
+          "visible": true,
+          "n": 8,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo",
+          "mode": "markers",
+          "visible": true,
+          "n": 12,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond",
+          "mode": "markers",
+          "visible": true,
+          "n": 6,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2",
+          "mode": "markers",
+          "visible": true,
+          "n": 3,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1",
+          "mode": "markers",
+          "visible": true,
+          "n": 6,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Front1 · Unranked",
+          "mode": "markers",
+          "visible": true,
+          "n": 1,
+          "xMin": 16.8,
+          "xMax": 16.8,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach",
+          "mode": "markers",
+          "visible": true,
+          "n": 7,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        },
+        {
+          "name": "Geo · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2 · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1 · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        }
+      ],
+      "textClipping": [
+        {
+          "text": "Plotted points",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 24,
+          "scrollHeight": 24
+        },
+        {
+          "text": "Quadratic trendlines",
+          "width": 131,
+          "scrollWidth": 131,
+          "height": 24,
+          "scrollHeight": 24
+        },
+        {
+          "text": "Quadratic · ranked only · no extrapolation.",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 18,
+          "scrollHeight": 18
+        },
+        {
+          "text": "Fit notes · 8/8 positions fitted",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Dotted curves: only 3 ranked builders; the curve passes through all three.",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 35,
+          "scrollHeight": 35
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "view": "full",
+      "state": "both",
+      "screenshot": "/home/chris/dev/localprojs/bar-nuke-lab/docs/screenshots/os-trendlines-live-dev-full-both-390.png",
+      "bounds": {
+        "x": 12,
+        "y": 213.890625,
+        "width": 366,
+        "height": 630.375,
+        "top": 213.890625,
+        "right": 378,
+        "bottom": 844.265625,
+        "left": 12
+      },
+      "chartBounds": {
+        "x": 25,
+        "y": 300.890625,
+        "width": 340,
+        "height": 340,
+        "top": 300.890625,
+        "right": 365,
+        "bottom": 640.890625,
+        "left": 25
+      },
+      "horizontalOverflow": false,
+      "xRange": [
+        10,
+        25
+      ],
+      "yRange": [
+        -8,
+        66
+      ],
+      "traceSummary": [
+        {
+          "name": "Geo",
+          "mode": "markers",
+          "visible": true,
+          "n": 15,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech",
+          "mode": "markers",
+          "visible": true,
+          "n": 25,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air",
+          "mode": "markers",
+          "visible": true,
+          "n": 8,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo",
+          "mode": "markers",
+          "visible": true,
+          "n": 12,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond",
+          "mode": "markers",
+          "visible": true,
+          "n": 6,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2",
+          "mode": "markers",
+          "visible": true,
+          "n": 3,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1",
+          "mode": "markers",
+          "visible": true,
+          "n": 6,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Front1 · Unranked",
+          "mode": "markers",
+          "visible": true,
+          "n": 1,
+          "xMin": 16.8,
+          "xMax": 16.8,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach",
+          "mode": "markers",
+          "visible": true,
+          "n": 7,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        },
+        {
+          "name": "Geo · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2 · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1 · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        }
+      ],
+      "textClipping": [
+        {
+          "text": "Plotted points",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Quadratic trendlines",
+          "width": 131,
+          "scrollWidth": 131,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Quadratic fits · ranked builders only · within recorded time ranges, not predictions.",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 35,
+          "scrollHeight": 35
+        },
+        {
+          "text": "Fit notes · 8/8 positions fitted",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Dotted curves: only 3 ranked builders; the curve passes through all three.",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 35,
+          "scrollHeight": 35
+        },
+        {
+          "text": "Chart guide & fit details",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Circle: Citadel · diamond: Umbrella · square: Oasis · cross: missing/other type. Partial games are descriptive evidence. Adding 90 seconds shifts timings, not the OS relationship. Time view: 10:00–25:00; records outside the view remain in summaries and the source table. Fits summarize OS against AN time for each position in the filtered/selected cohort, including off-screen timings; Unranked is excluded. Drag a box on points to link a cohort selection. Click a position in the color key to hide/show its visible layers.",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 158,
+          "scrollHeight": 158
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "view": "full",
+      "state": "curves",
+      "screenshot": "/home/chris/dev/localprojs/bar-nuke-lab/docs/screenshots/os-trendlines-live-dev-full-curves-390.png",
+      "bounds": {
+        "x": 12,
+        "y": 213.890625,
+        "width": 366,
+        "height": 630.375,
+        "top": 213.890625,
+        "right": 378,
+        "bottom": 844.265625,
+        "left": 12
+      },
+      "chartBounds": {
+        "x": 25,
+        "y": 300.890625,
+        "width": 340,
+        "height": 340,
+        "top": 300.890625,
+        "right": 365,
+        "bottom": 640.890625,
+        "left": 25
+      },
+      "horizontalOverflow": false,
+      "xRange": [
+        10,
+        25
+      ],
+      "yRange": [
+        -8,
+        66
+      ],
+      "traceSummary": [
+        {
+          "name": "Geo",
+          "mode": "markers",
+          "visible": false,
+          "n": 15,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech",
+          "mode": "markers",
+          "visible": false,
+          "n": 25,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air",
+          "mode": "markers",
+          "visible": false,
+          "n": 8,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo",
+          "mode": "markers",
+          "visible": false,
+          "n": 12,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond",
+          "mode": "markers",
+          "visible": false,
+          "n": 6,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2",
+          "mode": "markers",
+          "visible": false,
+          "n": 3,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1",
+          "mode": "markers",
+          "visible": false,
+          "n": 6,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Front1 · Unranked",
+          "mode": "markers",
+          "visible": false,
+          "n": 1,
+          "xMin": 16.8,
+          "xMax": 16.8,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach",
+          "mode": "markers",
+          "visible": false,
+          "n": 7,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        },
+        {
+          "name": "Geo · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2 · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1 · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach · quadratic fit",
+          "mode": "lines",
+          "visible": true,
+          "n": 81,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        }
+      ],
+      "textClipping": [
+        {
+          "text": "Plotted points",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Quadratic trendlines",
+          "width": 131,
+          "scrollWidth": 131,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Quadratic fits · ranked builders only · within recorded time ranges, not predictions.",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 35,
+          "scrollHeight": 35
+        },
+        {
+          "text": "Fit notes · 8/8 positions fitted",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Dotted curves: only 3 ranked builders; the curve passes through all three.",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 35,
+          "scrollHeight": 35
+        },
+        {
+          "text": "Chart guide & fit details",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Circle: Citadel · diamond: Umbrella · square: Oasis · cross: missing/other type. Partial games are descriptive evidence. Adding 90 seconds shifts timings, not the OS relationship. Time view: 10:00–25:00; records outside the view remain in summaries and the source table. Fits summarize OS against AN time for each position in the filtered/selected cohort, including off-screen timings; Unranked is excluded. Drag a box on points to link a cohort selection. Click a position in the color key to hide/show its visible layers.",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 158,
+          "scrollHeight": 158
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "view": "full",
+      "state": "points",
+      "screenshot": "/home/chris/dev/localprojs/bar-nuke-lab/docs/screenshots/os-trendlines-live-dev-full-points-390.png",
+      "bounds": {
+        "x": 12,
+        "y": 213.890625,
+        "width": 366,
+        "height": 522.5,
+        "top": 213.890625,
+        "right": 378,
+        "bottom": 736.390625,
+        "left": 12
+      },
+      "chartBounds": {
+        "x": 25,
+        "y": 300.890625,
+        "width": 340,
+        "height": 340,
+        "top": 300.890625,
+        "right": 365,
+        "bottom": 640.890625,
+        "left": 25
+      },
+      "horizontalOverflow": false,
+      "xRange": [
+        10,
+        25
+      ],
+      "yRange": [
+        -8,
+        66
+      ],
+      "traceSummary": [
+        {
+          "name": "Geo",
+          "mode": "markers",
+          "visible": true,
+          "n": 15,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech",
+          "mode": "markers",
+          "visible": true,
+          "n": 25,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air",
+          "mode": "markers",
+          "visible": true,
+          "n": 8,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo",
+          "mode": "markers",
+          "visible": true,
+          "n": 12,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond",
+          "mode": "markers",
+          "visible": true,
+          "n": 6,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2",
+          "mode": "markers",
+          "visible": true,
+          "n": 3,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1",
+          "mode": "markers",
+          "visible": true,
+          "n": 6,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Front1 · Unranked",
+          "mode": "markers",
+          "visible": true,
+          "n": 1,
+          "xMin": 16.8,
+          "xMax": 16.8,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach",
+          "mode": "markers",
+          "visible": true,
+          "n": 7,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        },
+        {
+          "name": "Geo · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2 · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1 · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        }
+      ],
+      "textClipping": [
+        {
+          "text": "Plotted points",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Quadratic trendlines",
+          "width": 131,
+          "scrollWidth": 131,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Chart guide & fit details",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Circle: Citadel · diamond: Umbrella · square: Oasis · cross: missing/other type. Partial games are descriptive evidence. Adding 90 seconds shifts timings, not the OS relationship. Time view: 10:00–25:00; records outside the view remain in summaries and the source table. Fits summarize OS against AN time for each position in the filtered/selected cohort, including off-screen timings; Unranked is excluded. Drag a box on points to link a cohort selection. Click a position in the color key to hide/show its visible layers.",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 158,
+          "scrollHeight": 158
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "view": "full",
+      "state": "hidden",
+      "screenshot": "/home/chris/dev/localprojs/bar-nuke-lab/docs/screenshots/os-trendlines-live-dev-full-hidden-390.png",
+      "bounds": {
+        "x": 12,
+        "y": 213.890625,
+        "width": 366,
+        "height": 572.6875,
+        "top": 213.890625,
+        "right": 378,
+        "bottom": 786.578125,
+        "left": 12
+      },
+      "chartBounds": {
+        "x": 25,
+        "y": 300.890625,
+        "width": 340,
+        "height": 340,
+        "top": 300.890625,
+        "right": 365,
+        "bottom": 640.890625,
+        "left": 25
+      },
+      "horizontalOverflow": false,
+      "xRange": [
+        10,
+        25
+      ],
+      "yRange": [
+        -8,
+        66
+      ],
+      "traceSummary": [
+        {
+          "name": "Geo",
+          "mode": "markers",
+          "visible": false,
+          "n": 15,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech",
+          "mode": "markers",
+          "visible": false,
+          "n": 25,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air",
+          "mode": "markers",
+          "visible": false,
+          "n": 8,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo",
+          "mode": "markers",
+          "visible": false,
+          "n": 12,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond",
+          "mode": "markers",
+          "visible": false,
+          "n": 6,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2",
+          "mode": "markers",
+          "visible": false,
+          "n": 3,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1",
+          "mode": "markers",
+          "visible": false,
+          "n": 6,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Front1 · Unranked",
+          "mode": "markers",
+          "visible": false,
+          "n": 1,
+          "xMin": 16.8,
+          "xMax": 16.8,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach",
+          "mode": "markers",
+          "visible": false,
+          "n": 7,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        },
+        {
+          "name": "Geo · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 12.083333333333334,
+          "xMax": 23.5,
+          "color": "#bc9ced"
+        },
+        {
+          "name": "Tech · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 12.7,
+          "xMax": 23.2,
+          "color": "#ffc072"
+        },
+        {
+          "name": "Air · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 12.933333333333334,
+          "xMax": 23.5,
+          "color": "#79cce0"
+        },
+        {
+          "name": "Sea geo · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 13.666666666666666,
+          "xMax": 24.5,
+          "color": "#93b8ff"
+        },
+        {
+          "name": "Pond · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 15.2,
+          "xMax": 23,
+          "color": "#70d9b0"
+        },
+        {
+          "name": "Front2 · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 16.05,
+          "xMax": 25.383333333333333,
+          "color": "#8bcf96"
+        },
+        {
+          "name": "Front1 · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 16.166666666666668,
+          "xMax": 20.166666666666668,
+          "color": "#e8d27b"
+        },
+        {
+          "name": "Sea beach · quadratic fit",
+          "mode": "lines",
+          "visible": false,
+          "n": 81,
+          "xMin": 16.5,
+          "xMax": 22.233333333333334,
+          "color": "#e8a1bf"
+        }
+      ],
+      "textClipping": [
+        {
+          "text": "Plotted points",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Quadratic trendlines",
+          "width": 131,
+          "scrollWidth": 131,
+          "height": 28,
+          "scrollHeight": 28
+        },
+        {
+          "text": "Both layers are hidden. Enable points or trendlines to show the graph.",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 35,
+          "scrollHeight": 35
+        },
+        {
+          "text": "Chart guide & fit details",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 17,
+          "scrollHeight": 17
+        },
+        {
+          "text": "Circle: Citadel · diamond: Umbrella · square: Oasis · cross: missing/other type. Partial games are descriptive evidence. Adding 90 seconds shifts timings, not the OS relationship. Time view: 10:00–25:00; records outside the view remain in summaries and the source table. Fits summarize OS against AN time for each position in the filtered/selected cohort, including off-screen timings; Unranked is excluded. Drag a box on points to link a cohort selection. Click a position in the color key to hide/show its visible layers.",
+          "width": 340,
+          "scrollWidth": 340,
+          "height": 158,
+          "scrollHeight": 158
+        }
+      ]
+    }
+  ]
+}

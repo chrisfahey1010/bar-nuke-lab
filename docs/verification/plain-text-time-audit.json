@@ -1,0 +1,261 @@
+{
+  "checkedAt": "2026-10-01T09:36:39.742Z",
+  "rows": 275,
+  "games": 20,
+  "corrected": [
+    {
+      "sourceRow": 107,
+      "field": "AN built time",
+      "value": "24:50",
+      "seconds": 1490,
+      "ref": "Sheet1!A107:P107",
+      "game": "10"
+    },
+    {
+      "sourceRow": 203,
+      "field": "AN built time",
+      "value": "24:38",
+      "seconds": 1478,
+      "ref": "Sheet1!A203:P203",
+      "game": "16"
+    },
+    {
+      "sourceRow": 247,
+      "field": "AN built time",
+      "value": "24:15",
+      "seconds": 1455,
+      "ref": "Sheet1!A247:P247",
+      "game": "19"
+    },
+    {
+      "sourceRow": 199,
+      "field": "Nuke built",
+      "value": "24:35",
+      "seconds": 1475,
+      "ref": "Sheet1!A199:P199",
+      "game": "16"
+    }
+  ],
+  "populatedTimeCells": {
+    "AN built time": 111,
+    "Nuke built": 5,
+    "First Nuke ready": 2,
+    "First Nuke launch": 3,
+    "Game duration": 275
+  },
+  "allPopulatedTimesValid": true,
+  "allGameDurationsPreserved": true,
+  "e247Observed": "24:15",
+  "e247Modeled": "25:45",
+  "unexpectedChanges": [
+    {
+      "ref": "Sheet1!A14:P14",
+      "sourceRow": 14,
+      "field": "AN built time",
+      "before": "?",
+      "after": ""
+    }
+  ],
+  "durationChanges": [
+    {
+      "game": "1",
+      "seconds": 1800,
+      "before": [
+        "0:30:00"
+      ],
+      "after": [
+        "30:00"
+      ]
+    },
+    {
+      "game": "2",
+      "seconds": 1800,
+      "before": [
+        "0:30:00"
+      ],
+      "after": [
+        "30:00"
+      ]
+    },
+    {
+      "game": "3",
+      "seconds": 1800,
+      "before": [
+        "0:30:00"
+      ],
+      "after": [
+        "30:00"
+      ]
+    },
+    {
+      "game": "4",
+      "seconds": 1800,
+      "before": [
+        "0:30:00"
+      ],
+      "after": [
+        "30:00"
+      ]
+    },
+    {
+      "game": "5",
+      "seconds": 1800,
+      "before": [
+        "0:30:00"
+      ],
+      "after": [
+        "30:00"
+      ]
+    },
+    {
+      "game": "6",
+      "seconds": 1800,
+      "before": [
+        "0:30:00"
+      ],
+      "after": [
+        "30:00"
+      ]
+    },
+    {
+      "game": "7",
+      "seconds": 1743,
+      "before": [
+        "0:29:03"
+      ],
+      "after": [
+        "29:03"
+      ]
+    },
+    {
+      "game": "8",
+      "seconds": 1680,
+      "before": [
+        "0:28:00"
+      ],
+      "after": [
+        "28:00"
+      ]
+    },
+    {
+      "game": "9",
+      "seconds": 940,
+      "before": [
+        "0:15:40"
+      ],
+      "after": [
+        "15:40"
+      ]
+    },
+    {
+      "game": "10",
+      "seconds": 2880,
+      "before": [
+        "0:48:00"
+      ],
+      "after": [
+        "48:00"
+      ]
+    },
+    {
+      "game": "11",
+      "seconds": 1030,
+      "before": [
+        "0:17:10"
+      ],
+      "after": [
+        "17:10"
+      ]
+    },
+    {
+      "game": "12",
+      "seconds": 1388,
+      "before": [
+        "0:23:08"
+      ],
+      "after": [
+        "23:08"
+      ]
+    },
+    {
+      "game": "13",
+      "seconds": 3540,
+      "before": [
+        "0:59:00"
+      ],
+      "after": [
+        "59:00"
+      ]
+    },
+    {
+      "game": "14",
+      "seconds": 1800,
+      "before": [
+        "0:30:00"
+      ],
+      "after": [
+        "30:00"
+      ]
+    },
+    {
+      "game": "15",
+      "seconds": 1800,
+      "before": [
+        "0:30:00"
+      ],
+      "after": [
+        "30:00"
+      ]
+    },
+    {
+      "game": "16",
+      "seconds": 1800,
+      "before": [
+        "0:30:00"
+      ],
+      "after": [
+        "30:00"
+      ]
+    },
+    {
+      "game": "17",
+      "seconds": 1622,
+      "before": [
+        "0:27:02"
+      ],
+      "after": [
+        "27:02"
+      ]
+    },
+    {
+      "game": "18",
+      "seconds": 1800,
+      "before": [
+        "0:30:00"
+      ],
+      "after": [
+        "30:00"
+      ]
+    },
+    {
+      "game": "19",
+      "seconds": 1800,
+      "before": [
+        "0:30:00"
+      ],
+      "after": [
+        "30:00"
+      ]
+    },
+    {
+      "game": "20",
+      "seconds": 1800,
+      "before": [
+        "0:30:00"
+      ],
+      "after": [
+        "30:00"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "panels": [
+    {
+      "class": "panel timing-panel",
+      "panel": {
+        "x": 28,
+        "y": 487.125,
+        "width": 928,
+        "height": 399.09375,
+        "top": 487.125,
+        "right": 956,
+        "bottom": 886.21875,
+        "left": 28
+      },
+      "plot": {
+        "x": 41,
+        "y": 526.125,
+        "width": 902,
+        "height": 347.09375,
+        "top": 526.125,
+        "right": 943,
+        "bottom": 873.21875,
+        "left": 41
+      },
+      "svg": {
+        "x": 41,
+        "y": 526.125,
+        "width": 902,
+        "height": 347.09375,
+        "top": 526.125,
+        "right": 943,
+        "bottom": 873.21875,
+        "left": 41
+      },
+      "ticks": [
+        "12:00",
+        "15:00",
+        "20:00",
+        "25:00"
+      ]
+    },
+    {
+      "class": "panel os-view os-view-compact",
+      "panel": {
+        "x": 968,
+        "y": 487.125,
+        "width": 580,
+        "height": 399.09375,
+        "top": 487.125,
+        "right": 1548,
+        "bottom": 886.21875,
+        "left": 968
+      },
+      "plot": {
+        "x": 981,
+        "y": 561.125,
+        "width": 554,
+        "height": 230,
+        "top": 561.125,
+        "right": 1535,
+        "bottom": 791.125,
+        "left": 981
+      },
+      "svg": {
+        "x": 981,
+        "y": 561.125,
+        "width": 554,
+        "height": 230,
+        "top": 561.125,
+        "right": 1535,
+        "bottom": 791.125,
+        "left": 981
+      },
+      "ticks": [
+        "12:00",
+        "15:00",
+        "20:00",
+        "25:00"
+      ]
+    }
+  ],
+  "clock": {
+    "min": "720",
+    "max": "1500",
+    "value": "900"
+  },
+  "source": "Google CSV · fresh retrievalRetrieved / imported 10/1/2026, 3:03:29 AM",
+  "mobile": {
+    "width": 390,
+    "documentWidth": 390,
+    "plot": {
+      "x": 25,
+      "y": 285.390625,
+      "width": 340,
+      "height": 300,
+      "top": 285.390625,
+      "right": 365,
+      "bottom": 585.390625,
+      "left": 25
+    },
+    "titles": [
+      {
+        "text": "Simulation elapsed time (m:ss)",
+        "bounds": {
+          "x": 113.8125,
+          "y": 514.390625,
+          "width": 186.46820068359375,
+          "height": 18,
+          "top": 514.390625,
+          "right": 300.28070068359375,
+          "bottom": 532.390625,
+          "left": 113.8125
+        }
+      },
+      {
+        "text": "Cumulative observations (count)",
+        "bounds": {
+          "x": 27,
+          "y": 289.61712646484375,
+          "width": 18,
+          "height": 197.45318603515625,
+          "top": 289.61712646484375,
+          "right": 45,
+          "bottom": 487.0703125,
+          "left": 27
+        }
+      }
+    ]
+  },
+  "errors": []
+}

@@ -1,0 +1,145 @@
+{
+  "checkedAt": "2026-10-01T04:50:46.399244+00:00",
+  "documentation": {
+    "readme": "updated",
+    "dataContract": "updated",
+    "collectionGuide": "updated",
+    "sessionHandoff": "created",
+    "agents": "created and approved"
+  },
+  "formatting": "passed",
+  "relativeLinks": [
+    {
+      "document": "README.md",
+      "target": "docs/collection-guide.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/data-contract.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/collection-guide.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/verification/sheet-update-audit.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/verification/session-handoff.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/verification/session-handoff.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/verification/review-fixes.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/verification/duration-axis-summary.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/verification/summary.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "AGENTS.md",
+      "exists": true
+    },
+    {
+      "document": "docs/verification/session-handoff.md",
+      "target": "../../AGENTS.md",
+      "exists": true
+    },
+    {
+      "document": "docs/verification/session-handoff.md",
+      "target": "session-handoff-source.csv",
+      "exists": true
+    },
+    {
+      "document": "docs/verification/session-handoff.md",
+      "target": "session-handoff-source-audit.json",
+      "exists": true
+    },
+    {
+      "document": "docs/verification/session-handoff.md",
+      "target": "sheet-update-audit.md",
+      "exists": true
+    },
+    {
+      "document": "docs/verification/session-handoff.md",
+      "target": "summary.md",
+      "exists": true
+    },
+    {
+      "document": "docs/verification/session-handoff.md",
+      "target": "review-fixes.md",
+      "exists": true
+    },
+    {
+      "document": "docs/verification/session-handoff.md",
+      "target": "duration-axis-summary.md",
+      "exists": true
+    },
+    {
+      "document": "docs/verification/session-handoff.md",
+      "target": "sheet-update-audit.md",
+      "exists": true
+    }
+  ],
+  "unitTests": {
+    "passed": 40,
+    "failed": 0
+  },
+  "browserStats": {
+    "dev": {
+      "startTime": "2026-10-01T04:25:01.665Z",
+      "duration": 14607.088,
+      "expected": 24,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "preview": {
+      "startTime": "2026-10-01T04:25:16.611Z",
+      "duration": 11080.333999999999,
+      "expected": 24,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "typecheck": "passed in wrap-up verification command",
+  "build": "passed in wrap-up verification command",
+  "sourceSnapshot": {
+    "retrievedAt": "2026-10-01T04:07:40.588Z",
+    "rows": 211,
+    "games": 16,
+    "usableRows": 206
+  },
+  "remaining": [],
+  "agentContext": {
+    "path": "AGENTS.md",
+    "characters": 11692,
+    "referencedPaths": [
+      "docs/collection-guide.md",
+      "docs/data-contract.md",
+      "docs/verification/session-handoff.md"
+    ],
+    "referencedPathsExist": true,
+    "rootPriorityOverrides": []
+  }
+}
